@@ -1,9 +1,10 @@
+using WebApiProject.Interfaces;
 using WebApiProject.Models;
 namespace WebApiProject.Services;
-public class IceCreamService
+public class IceCreamServiceConst:IIceCreamService
 {
-    private static List<IceCream> iceCreamList;
-    static IceCreamService()
+    private  List<IceCream> iceCreamList;
+    public IceCreamServiceConst()
     {
         iceCreamList = new List<IceCream>
         {
@@ -27,16 +28,16 @@ public class IceCreamService
             }
         };
     }
-    public static List<IceCream> Get()
+    public List<IceCream> Get()
     {
         return iceCreamList;
     }
-    public static IceCream Get(int id)
+    public  IceCream Get(int id)
     {
         var iceCream = iceCreamList.FirstOrDefault(i=>i.Id == id);
         return iceCream;
     }
-    public static int Insert(IceCream newIceCream)
+    public  int Insert(IceCream newIceCream)
     {
         if(newIceCream == null
             || newIceCream.Price <= 0
@@ -47,7 +48,7 @@ public class IceCreamService
         iceCreamList.Add(newIceCream);
         return newIceCream.Id;
     }
-    public static bool UpDate(int id,IceCream newIceCream)
+    public bool UpDate(int id,IceCream newIceCream)
     {
         if(newIceCream == null
             || newIceCream.Price <= 0
@@ -61,12 +62,19 @@ public class IceCreamService
         iceCream.Id = newIceCream.Id;
         return true;
     }
-    public static bool Delete(int id){
+    public bool Delete(int id){
         var iceCream = iceCreamList.FirstOrDefault(i => i.Id == id);
         if(iceCream == null)
             return false;
         var index = iceCreamList.IndexOf(iceCream);
         iceCreamList.RemoveAt(index);
         return true;
+    }
+
+}
+public static class IceCreamUtilities
+{
+    public static void AddIceCreamConst(this IServiceCollection services){
+        services.AddSingleton<IIceCreamService,IceCreamServiceConst>();
     }
 }
