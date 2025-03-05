@@ -19,7 +19,7 @@ public class LogMiddleware
         var stopWatch = new Stopwatch();
         stopWatch.Start();
         await next(context);
-        System.Console.WriteLine($"{context.Request.Path}.{context.Request.Method} took {stopWatch.ElapsedMilliseconds}ms."+$"success: {context.Items["success"]}");
+        System.Console.WriteLine($"{context.Request.Path}.{context.Request.Method} took {stopWatch.ElapsedMilliseconds}ms."+$"success: {context.Response.status==200}");
     }
 }
 public static partial class MiddlewareExtentions{

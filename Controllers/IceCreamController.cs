@@ -16,7 +16,6 @@ public class IceCreamController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<IceCream>> Get()
     {
-        throw new Exception();
         return iceCreamService.Get();
     }
 
