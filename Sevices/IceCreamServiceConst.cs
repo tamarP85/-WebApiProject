@@ -3,10 +3,10 @@ using WebApiProject.Models;
 namespace WebApiProject.Services;
 public class IceCreamServiceConst:IIceCreamService
 {
-    private  List<IceCream> iceCreamList;
+    private  List<IceCream> IceCreamList;
     public IceCreamServiceConst()
     {
-        iceCreamList = new List<IceCream>
+        IceCreamList = new List<IceCream>
         {
             new IceCream{
                  Id  =  1 ,
@@ -30,11 +30,11 @@ public class IceCreamServiceConst:IIceCreamService
     }
     public List<IceCream> Get()
     {
-        return iceCreamList;
+        return IceCreamList;
     }
     public  IceCream Get(int id)
     {
-        var iceCream = iceCreamList.FirstOrDefault(i=>i.Id == id);
+        var iceCream = IceCreamList.FirstOrDefault(i=>i.Id == id);
         return iceCream;
     }
     public  int Insert(IceCream newIceCream)
@@ -43,9 +43,9 @@ public class IceCreamServiceConst:IIceCreamService
             || newIceCream.Price <= 0
             || string.IsNullOrWhiteSpace(newIceCream.Name))
         return -1;
-        int maxId = iceCreamList.Max(i=>i.Id);
+        int maxId = IceCreamList.Max(i=>i.Id);
         newIceCream.Id=maxId+1;
-        iceCreamList.Add(newIceCream);
+        IceCreamList.Add(newIceCream);
         return newIceCream.Id;
     }
     public bool UpDate(int id,IceCream newIceCream)
@@ -55,7 +55,7 @@ public class IceCreamServiceConst:IIceCreamService
             || string.IsNullOrWhiteSpace(newIceCream.Name)
             || newIceCream.Id != id)
         return false;
-        var iceCream = iceCreamList.FirstOrDefault(i => i.Id == id);
+        var iceCream = IceCreamList.FirstOrDefault(i => i.Id == id);
         if(iceCream == null)
             return false;
         iceCream.Name = newIceCream.Name;
@@ -63,11 +63,11 @@ public class IceCreamServiceConst:IIceCreamService
         return true;
     }
     public bool Delete(int id){
-        var iceCream = iceCreamList.FirstOrDefault(i => i.Id == id);
+        var iceCream = IceCreamList.FirstOrDefault(i => i.Id == id);
         if(iceCream == null)
             return false;
-        var index = iceCreamList.IndexOf(iceCream);
-        iceCreamList.RemoveAt(index);
+        var index = IceCreamList.IndexOf(iceCream);
+        IceCreamList.RemoveAt(index);
         return true;
     }
 

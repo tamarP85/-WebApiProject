@@ -17,7 +17,7 @@ public class ErrorMiddleware
     public async Task Invoke(HttpContext context)
     {
         context.Items["success"] = false;
-        bool success = false;
+        bool success = true;
         try
         {
             await next(context);
