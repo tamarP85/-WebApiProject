@@ -1,13 +1,14 @@
 using Microsoft.OpenApi.Models;
 using WebApiProject.Middleware;
 using WebApiProject.Services;
+using WebApiProject.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // הוספת שירותי ה-Controllers
 builder.Services.AddControllers();
-// builder.Services.AddIceCreamConst();
-builder.Services.AddIceCreamJson();
-builder.Services.AddUserJson();
+builder.Services.AddGenericJson<IceCream,IceCreamServiceJson>();
+builder.Services.AddGenericJson<User,UserServiceJson>();
+
 
 // הוספת Swagger
 builder.Services.AddSwaggerGen(c =>

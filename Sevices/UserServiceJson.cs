@@ -10,62 +10,36 @@ using WebApiProject.Models;
 using System.Text.RegularExpressions;
 namespace WebApiProject.Services;
 
-public class UserServiceJson : IUserService
+public class UserServiceJson : IGenericServicesJson<User>
 {
-    private List<User> UsersList { get; }
-    private static string fileName = "Users.json";
-    private string filePath;
-
-    public UserServiceJson(IHostEnvironment env)
-    {
-        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
-
-        using (var jsonFile = File.OpenText(filePath))
-        {
-            UsersList = JsonSerializer.Deserialize<List<User>>(jsonFile.ReadToEnd(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }) ?? new List<User>();
-        }
+    
+    public UserServiceJson(IHostEnvironment env):base(env)
+    {     
     }
-
-    private void saveToFile()
-    {
-        File.WriteAllText(filePath, JsonSerializer.Serialize(UsersList));
-    }
-
-    public List<User> Get()
-    {
-        return UsersList;
-    }
-
-    public User Get(string email) => UsersList.FirstOrDefault(i => i.Email == email);
-
-    public int Insert(User newUser)
+    public override int Insert(User newUser)
     {
         if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type))
             return -1;
         if (!IsValidEmail(newUser.Email))
             return -1;
 
-        int maxId = UsersList.Max(i => i.Id);
+        int maxId = ItemsList.Max(i => i.Id);
         newUser.Id = maxId + 1;
-        if (UsersList.FirstOrDefault(u => u.Email == newUser.Email || u.Password == newUser.Password) != null)
+        if (ItemsList.FirstOrDefault(u => u.Email == newUser.Email || u.Password == newUser.Password) != null)
             return -1;
-        UsersList.Add(newUser);
+        ItemsList.Add(newUser);
         saveToFile();
         return newUser.Id;
     }
 
-    public bool UpDate(string email, User newUser)
+    public override bool UpDate(int id , User newUser)
     {
         if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type))
             return false;
-        var User = UsersList.FirstOrDefault(i => i.Email == email);
+        var User = ItemsList.FirstOrDefault(i => i.Id == id);
         if (User == null)
             return false;
-        if (UsersList.FirstOrDefault(u => (u.Email == newUser.Email && u.Id != User.Id) || (u.Password == newUser.Password && u.Id != User.Id)) != null)
+        if (ItemsList.FirstOrDefault(u => (u.Email == newUser.Email && u.Id != User.Id) || (u.Password == newUser.Password && u.Id != User.Id)) != null)
             return false;
         if (!IsValidEmail(newUser.Email))
             return false;
@@ -77,27 +51,10 @@ public class UserServiceJson : IUserService
         saveToFile();
         return true;
     }
-
-    public bool Delete(string email)
-    {
-        var User = UsersList.FirstOrDefault(i => i.Email == email);
-        if (User == null)
-            return false;
-
-        UsersList.Remove(User);
-        saveToFile();
-        return true;
-    }
     private bool IsValidEmail(string email)
     {
         string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
         return Regex.IsMatch(email, pattern);
     }
 }
-public static class UserUtilitiesJson
-{
-    public static void AddUserJson(this IServiceCollection services)
-    {
-        services.AddSingleton<IUserService, UserServiceJson>();
-    }
-}
+// 

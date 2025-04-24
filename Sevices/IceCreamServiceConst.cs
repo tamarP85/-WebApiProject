@@ -1,7 +1,7 @@
 using WebApiProject.Interfaces;
 using WebApiProject.Models;
 namespace WebApiProject.Services;
-public class IceCreamServiceConst:IIceCreamService
+public class IceCreamServiceConst:IGenericInterface<IceCream>
 {
     private  List<IceCream> IceCreamList;
     public IceCreamServiceConst()
@@ -75,6 +75,6 @@ public class IceCreamServiceConst:IIceCreamService
 public static class IceCreamUtilities
 {
     public static void AddIceCreamConst(this IServiceCollection services){
-        services.AddSingleton<IIceCreamService,IceCreamServiceConst>();
+        services.AddSingleton<IGenericInterface<IceCream>,IceCreamServiceConst>();
     }
 }

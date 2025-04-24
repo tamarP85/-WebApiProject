@@ -19,5 +19,12 @@
         "Password": "password789",
         "Email": "charlie@example.com",
         "Type": "User"
+    },
+    {
+        "Id": 4,
+        "Name": "dbgf",
+        "Password": "fgdhdf",
+        "Email": "fdj@gmail.com",
+        "Type": "gfhj"
     }
 ]

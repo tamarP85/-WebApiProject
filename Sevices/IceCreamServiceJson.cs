@@ -10,56 +10,31 @@ using WebApiProject.Models;
 
 namespace WebApiProject.Services;
 
-    public class IceCreamServiceJson : IIceCreamService // שינוי: מימוש הממשק הגנרי
+    public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי: מימוש הממשק הגנרי
     {
-        private List<IceCream> IceCreamList { get; }
-        private static string fileName = "IceCream.json";
-        private string filePath;
 
-        public IceCreamServiceJson(IHostEnvironment env)
+        public IceCreamServiceJson(IHostEnvironment env):base(env)
         {
-            filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
-
-            using (var jsonFile = File.OpenText(filePath))
-            {
-                IceCreamList = JsonSerializer.Deserialize<List<IceCream>>(jsonFile.ReadToEnd(),
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                }) ?? new List<IceCream>();
-            }
         }
-
-        private void saveToFile()
-        {
-            File.WriteAllText(filePath, JsonSerializer.Serialize(IceCreamList));
-        }
-
-        public List<IceCream> Get()
-        {
-            return IceCreamList;
-        }
-
-        public IceCream Get(int id) => IceCreamList.FirstOrDefault(i => i.Id == id);
-
-        public int Insert(IceCream newIceCream)
+       
+        public override int Insert(IceCream newIceCream)
         {
             if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name))
                 return -1;
 
-            int maxId = IceCreamList.Max(i => i.Id);
+            int maxId = ItemsList.Max(i => i.Id);
             newIceCream.Id = maxId + 1;
-            IceCreamList.Add(newIceCream);
+            ItemsList.Add(newIceCream);
             saveToFile();
             return newIceCream.Id;
         }
 
-        public bool UpDate(int id, IceCream newIceCream)
+        public  override bool UpDate(int id, IceCream newIceCream)
         {
             if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name) || newIceCream.Id != id)
                 return false;
 
-            var iceCream = IceCreamList.FirstOrDefault(i => i.Id == id);
+            var iceCream = ItemsList.FirstOrDefault(i => i.Id == id);
             if (iceCream == null)
                 return false;
 
@@ -69,21 +44,4 @@ namespace WebApiProject.Services;
             return true;
         }
 
-        public bool Delete(int id)
-        {
-            var iceCream = IceCreamList.FirstOrDefault(i => i.Id == id);
-            if (iceCream == null)
-                return false;
-
-            IceCreamList.Remove(iceCream);
-            saveToFile();
-            return true;
-        }
-    }
-public static class IceCreamUtilitiesJson
-{
-    public static void AddIceCreamJson(this IServiceCollection services)
-    {
-        services.AddSingleton<IIceCreamService, IceCreamServiceJson>(); // שינוי: הוספת ה-Service כמימוש של הממשק הגנרי
-    }
 }
