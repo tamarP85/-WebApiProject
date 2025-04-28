@@ -218,3 +218,12 @@ Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\D
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\4vh1o9v6r9-oxt267juch.gz
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\eptw1s3nfw-ew7nvb2zw9.gz
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Data\User.json
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Scalar.AspNetCore.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
