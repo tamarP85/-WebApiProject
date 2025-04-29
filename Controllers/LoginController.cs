@@ -29,7 +29,7 @@ public class LoginController : ControllerBase
         System.Console.WriteLine(currentUser);
         if (currentUser == null)
         {
-            return NotFound();
+            return NotFound(); 
         }
 
         var claims = new List<Claim>();
@@ -39,7 +39,7 @@ public class LoginController : ControllerBase
             claims = new List<Claim>
            {
                 new Claim("type", "Agent"),
-                new Claim("AgentId", "1"),
+                new Claim("AgentId", user.Id.ToString()),
             };
         }
         else
@@ -47,7 +47,7 @@ public class LoginController : ControllerBase
             claims = new List<Claim>
             {
                 new Claim("type", "Admin"),
-                new Claim("ClearanceLevel", "2"),
+                new Claim("AgentId", user.Id.ToString()),
             };
         }
 

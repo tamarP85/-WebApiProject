@@ -28,32 +28,12 @@ public static class AuthServiceExtensions
                     TokenService.GetTokenValidationParameters();
             });
 
-        // services.AddAuthorization(cfg =>
-        //     {
-        //         cfg.AddPolicy("Admin", 
-        //             policy => policy.RequireClaim("role", "Admin"));
-        //         cfg.AddPolicy("User", 
-        //             policy => policy.RequireClaim("role", "User", "Admin"));
-        //         cfg.AddPolicy("ClearanceLevel1", 
-        //             policy => policy.RequireClaim("ClearanceLevel", "1", "2"));
-        //         cfg.AddPolicy("ClearanceLevel2", 
-        //             policy => policy.RequireClaim("ClearanceLevel", "2"));
-        //     });
+       
                 services.AddAuthorization(cfg =>
         {
         cfg.AddPolicy("Admin", policy => policy.RequireClaim("type", "Admin")); // שינוי: "role" במקום "type"
         cfg.AddPolicy("Agent", policy => policy.RequireClaim("type", "Agent", "Admin")); // שינוי: "role" במקום "type"
         });
         return services;
-    //     services.AddAuthorization(options =>
-    //    {
-    //        options.AddPolicy("Admin", policy =>
-    //        {
-    //            policy.RequireClaim("type", "Admin");
-    //        });
-
-    //        return services;
-
-    //    });
     }
 }

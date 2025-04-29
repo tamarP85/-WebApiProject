@@ -14,7 +14,7 @@ public class UserController : ControllerBase
     public UserController(IGenericServicesJson<User> userService)
     {
         this.userService = userService;
-    } 
+    }
     [HttpGet]
     [Authorize(Policy = "Admin")]
     public ActionResult<IEnumerable<User>> Get()
@@ -24,7 +24,8 @@ public class UserController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    [Authorize(Policy = "Agent")]
+    [Authorize(Policy = "Admin")]
+    [Authorize(AgentId = id)]
     public ActionResult<User> Get(int id)
     {
         var user = userService.Get(id);
@@ -34,7 +35,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-     [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "Admin")]
     public ActionResult Post(User newUser)
     {
         var newId = userService.Insert(newUser);
@@ -44,7 +45,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPut("{id}")]
-     [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "Admin")]
     public ActionResult Put(int id, User newUser)
     {
         if (userService.UpDate(id, newUser))
@@ -52,7 +53,7 @@ public class UserController : ControllerBase
         return BadRequest();
     }
     [HttpDelete("{id}")]
-     [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "Admin")]
     public ActionResult Delete(int id)
     {
         if (userService.Delete(id))

@@ -14,6 +14,7 @@ public class IceCreamController :ControllerBase
         this.iceCreamService = iceCreamService;
     } 
     [HttpGet]
+    
     public ActionResult<IEnumerable<IceCream>> Get()
     {
         return iceCreamService.Get();
