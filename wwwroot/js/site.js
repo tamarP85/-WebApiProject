@@ -14,20 +14,20 @@ function addItem() {
     const addDescriptionTextbox = document.getElementById('add-description');
     const addPriceTextbox = document.getElementById('add-price');
     const item = {
-        code:addCodeTextbox.value.trim(),
+        code: addCodeTextbox.value.trim(),
         name: addNameTextbox.value.trim(),
         description: addDescriptionTextbox.value.trim(),
         price: addPriceTextbox.value.trim(),
     };
 
     fetch(uri, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(item)
-    })
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(item)
+        })
         .then(response => response.json())
         .then(() => {
             getItems();
@@ -41,8 +41,8 @@ function addItem() {
 
 function deleteItem(id) {
     fetch(`${uri}/${id}`, {
-        method: 'DELETE'
-    })
+            method: 'DELETE'
+        })
         .then(() => getItems())
         .catch(error => console.error('Unable to delete item.', error));
 }
@@ -60,25 +60,25 @@ function displayEditForm(id) {
 }
 
 function updateItem() {
-    
+
     const itemId = document.getElementById('edit-code').value;
-  console.log("bcngf"+itemId);  
-  const item = {
+    console.log("bcngf" + itemId);
+    const item = {
         id: parseInt(itemId, 10),
         name: document.getElementById('edit-name').value.trim(),
-        description:document.getElementById('edit-description').value.trim(),
-        price:document.getElementById('edit-price').value.trim()
+        description: document.getElementById('edit-description').value.trim(),
+        price: document.getElementById('edit-price').value.trim()
     };
-   
+
 
     fetch(`${uri}/${itemId}`, {
-        method: 'PUT',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(item)
-    })
+            method: 'PUT',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(item)
+        })
         .then(() => getItems())
         .catch(error => console.error('Unable to update item.', error));
 
@@ -124,16 +124,16 @@ function _displayItems(data) {
         let textNodeId = document.createTextNode(item.id);
         let textNodeDescpription = document.createTextNode(item.description);
         let textNodePrice = document.createTextNode(item.price);
- let td5 = tr.insertCell(4);
+        let td5 = tr.insertCell(4);
         let td6 = tr.insertCell(5);
-       
+
         td2.appendChild(textNodeName);
         td1.appendChild(textNodeId);
         td3.appendChild(textNodeDescpription);
         td4.appendChild(textNodePrice);
         td5.appendChild(deleteButton);
         td6.appendChild(editButton);
-       
+
     });
 
     iceCreams = data;

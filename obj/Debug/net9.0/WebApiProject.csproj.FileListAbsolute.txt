@@ -214,7 +214,6 @@ Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\D
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\ref\WebApiProject.dll
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\WebApiProject.staticwebassets.runtime.json
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Data\IceCream.json
-Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\ppcu9vh0wd-6k49nzn6n2.gz
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\4vh1o9v6r9-oxt267juch.gz
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\eptw1s3nfw-ew7nvb2zw9.gz
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Data\User.json
@@ -227,3 +226,10 @@ Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\D
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Scalar.AspNetCore.dll
 Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+Z:\B\יעקבזון יהודית\CORE\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\ppcu9vh0wd-ts4yhkyn39.gz
