@@ -24,7 +24,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet("{id}")]
-     [Authorize(Policy = "User")]
+    [Authorize(Policy = "Agent")]
     public ActionResult<User> Get(int id)
     {
         var user = userService.Get(id);

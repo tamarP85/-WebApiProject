@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gdrsnaCS5sE+beOt1yEeCp4EVUUYJWCYAZd8yN43Pp0=",
+  "Hash": "3xazSf16ju5jolr9+d7nd9yn3J27wlx6iDs8NdjZhHU=",
   "Source": "WebApiProject",
   "BasePath": "_content/WebApiProject",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-oxt267juch.gz",
+      "Identity": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-u8fuvaarim.gz",
       "SourceId": "WebApiProject",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApiProject",
-      "RelativePath": "index#[.{fingerprint=oxt267juch}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=u8fuvaarim}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,19 +31,19 @@
       "RelatedAsset": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "r6m378l06d",
-      "Integrity": "E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40=",
+      "Fingerprint": "wyiwqlc485",
+      "Integrity": "+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html"
     },
     {
-      "Identity": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-ew7nvb2zw9.gz",
+      "Identity": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-4rguwez6bs.gz",
       "SourceId": "WebApiProject",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApiProject",
-      "RelativePath": "css/site#[.{fingerprint=ew7nvb2zw9}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=4rguwez6bs}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,19 +52,19 @@
       "RelatedAsset": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "oy5796yxo4",
-      "Integrity": "8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU=",
+      "Fingerprint": "ebg9q5jn28",
+      "Integrity": "JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-ts4yhkyn39.gz",
+      "Identity": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-689rilo968.gz",
       "SourceId": "WebApiProject",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApiProject",
-      "RelativePath": "js/site#[.{fingerprint=ts4yhkyn39}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=689rilo968}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "49edl2fkld",
-      "Integrity": "aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak=",
+      "Fingerprint": "481fa7501g",
+      "Integrity": "9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ew7nvb2zw9",
-      "Integrity": "Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk=",
+      "Fingerprint": "4rguwez6bs",
+      "Integrity": "sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oxt267juch",
-      "Integrity": "DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q=",
+      "Fingerprint": "u8fuvaarim",
+      "Integrity": "UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ts4yhkyn39",
-      "Integrity": "M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng=",
+      "Fingerprint": "689rilo968",
+      "Integrity": "du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -145,13 +145,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-ew7nvb2zw9.gz",
+      "Route": "css/site.4rguwez6bs.css",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-4rguwez6bs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001386962552"
+          "Quality": "0.001404494382"
         }
       ],
       "ResponseHeaders": [
@@ -161,19 +161,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "720"
+          "Value": "711"
         },
         {
           "Name": "ETag",
-          "Value": "\"8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU=\""
+          "Value": "\"JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:32:07 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -189,18 +189,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk=\""
+          "Value": "W/\"sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4rguwez6bs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk="
+          "Value": "sha256-sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.4rguwez6bs.css",
       "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -210,7 +218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2677"
+          "Value": "2528"
         },
         {
           "Name": "Content-Type",
@@ -218,121 +226,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk=\""
+          "Value": "\"sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:32:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-ew7nvb2zw9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:32:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.ew7nvb2zw9.css",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-ew7nvb2zw9.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001386962552"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "720"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:32:07 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ew7nvb2zw9"
+          "Value": "4rguwez6bs"
         },
         {
           "Name": "label",
@@ -340,13 +248,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk="
+          "Value": "sha256-sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ="
         }
       ]
     },
     {
-      "Route": "css/site.ew7nvb2zw9.css",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
+      "Route": "css/site.4rguwez6bs.css.gz",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-4rguwez6bs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -355,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2677"
+          "Value": "711"
         },
         {
           "Name": "Content-Type",
@@ -363,56 +271,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk=\""
+          "Value": "\"JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:32:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ew7nvb2zw9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Qg1biPYeA1SPvsqrPUdUDyHDxXFFeO3ul3wJ9nEpnnk="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.ew7nvb2zw9.css.gz",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-ew7nvb2zw9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 12:32:07 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -430,7 +293,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ew7nvb2zw9"
+          "Value": "4rguwez6bs"
         },
         {
           "Name": "label",
@@ -438,18 +301,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8PrptcDk4A4Kwm/8fyaTMV93nf0gDsndXh7IxHAOBiU="
+          "Value": "sha256-JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-oxt267juch.gz",
+      "Route": "css/site.css",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-4rguwez6bs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001721170396"
+          "Quality": "0.001404494382"
         }
       ],
       "ResponseHeaders": [
@@ -459,15 +322,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "580"
+          "Value": "711"
         },
         {
           "Name": "ETag",
-          "Value": "\"E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40=\""
+          "Value": "\"JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:00:48 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sIexx0Ne7UmxTU7Y/j+mSmHJLvRyMWQbtoB0ecIt/zQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-4rguwez6bs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsdRS0BROEG0ROZxl/KJQVNrjDqG3Dp3mvOQ0uHKE40="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-u8fuvaarim.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001742160279"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "573"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -487,13 +487,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q=\""
+          "Value": "W/\"UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q="
+          "Value": "sha256-UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo="
         }
       ]
     },
@@ -508,7 +508,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1641"
+          "Value": "1586"
         },
         {
           "Name": "Content-Type",
@@ -516,11 +516,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q=\""
+          "Value": "\"UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:00:48 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -530,13 +530,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q="
+          "Value": "sha256-UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-oxt267juch.gz",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-u8fuvaarim.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -545,7 +545,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "580"
+          "Value": "573"
         },
         {
           "Name": "Content-Type",
@@ -553,11 +553,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40=\""
+          "Value": "\"+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:00:48 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -575,18 +575,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40="
+          "Value": "sha256-+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8="
         }
       ]
     },
     {
-      "Route": "index.oxt267juch.html",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-oxt267juch.gz",
+      "Route": "index.u8fuvaarim.html",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-u8fuvaarim.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001721170396"
+          "Quality": "0.001742160279"
         }
       ],
       "ResponseHeaders": [
@@ -596,15 +596,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "580"
+          "Value": "573"
         },
         {
           "Name": "ETag",
-          "Value": "\"E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40=\""
+          "Value": "\"+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:00:48 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -624,13 +624,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q=\""
+          "Value": "W/\"UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oxt267juch"
+          "Value": "u8fuvaarim"
         },
         {
           "Name": "label",
@@ -638,12 +638,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q="
+          "Value": "sha256-UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo="
         }
       ]
     },
     {
-      "Route": "index.oxt267juch.html",
+      "Route": "index.u8fuvaarim.html",
       "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -653,7 +653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1641"
+          "Value": "1586"
         },
         {
           "Name": "Content-Type",
@@ -661,11 +661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q=\""
+          "Value": "\"UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:00:48 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -675,7 +675,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oxt267juch"
+          "Value": "u8fuvaarim"
         },
         {
           "Name": "label",
@@ -683,13 +683,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DPZvtFJFqP00dRgUmO+BF70wLJY/Ao83ELrUCtzKS1Q="
+          "Value": "sha256-UhCke7n0WnqmH/vXHasTIQ2LPEUKNPC2m7+AG6+0nCo="
         }
       ]
     },
     {
-      "Route": "index.oxt267juch.html.gz",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-oxt267juch.gz",
+      "Route": "index.u8fuvaarim.html.gz",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-u8fuvaarim.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -698,7 +698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "580"
+          "Value": "573"
         },
         {
           "Name": "Content-Type",
@@ -706,11 +706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40=\""
+          "Value": "\"+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:00:48 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -728,7 +728,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oxt267juch"
+          "Value": "u8fuvaarim"
         },
         {
           "Name": "label",
@@ -736,18 +736,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-E2qhwG/huzd7fq/T9ampqX/CvAJ+fDWdx8yJAk21H40="
+          "Value": "sha256-+EnlnqfUQD2bNoy3OM4czoGYQDLFUnRI0oVQoLw7eM8="
         }
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-ts4yhkyn39.gz",
+      "Route": "js/site.689rilo968.js",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-689rilo968.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000874890639"
+          "Quality": "0.000883392226"
         }
       ],
       "ResponseHeaders": [
@@ -757,19 +757,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1142"
+          "Value": "1131"
         },
         {
           "Name": "ETag",
-          "Value": "\"aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak=\""
+          "Value": "\"9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 13:09:52 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -785,18 +785,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng=\""
+          "Value": "W/\"du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "689rilo968"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng="
+          "Value": "sha256-du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.689rilo968.js",
       "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -806,7 +814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4567"
+          "Value": "4428"
         },
         {
           "Name": "Content-Type",
@@ -814,121 +822,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng=\""
+          "Value": "\"du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 13:09:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-ts4yhkyn39.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1142"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 13:09:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.ts4yhkyn39.js",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-ts4yhkyn39.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000874890639"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1142"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 13:09:52 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ts4yhkyn39"
+          "Value": "689rilo968"
         },
         {
           "Name": "label",
@@ -936,13 +844,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng="
+          "Value": "sha256-du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4="
         }
       ]
     },
     {
-      "Route": "js/site.ts4yhkyn39.js",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
+      "Route": "js/site.689rilo968.js.gz",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-689rilo968.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -951,7 +859,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4567"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -959,56 +867,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng=\""
+          "Value": "\"9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 13:09:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ts4yhkyn39"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-M1LwOt9tvnjAD1tKW8ycEKeYbZg/pYdHt5Na2R0X1Ng="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.ts4yhkyn39.js.gz",
-      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-ts4yhkyn39.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1142"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 13:09:52 GMT"
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1026,7 +889,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ts4yhkyn39"
+          "Value": "689rilo968"
         },
         {
           "Name": "label",
@@ -1034,7 +897,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aPaAtN8YzTI+6Zi2yrZNLc6oeXiMdwxhniSyI+pOmak="
+          "Value": "sha256-9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-689rilo968.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000883392226"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-du2PXIDOPpZDW0NzD5KR+EtzmGR6owK+mWqK1gDKC/4="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-689rilo968.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Mmx1wOnKi8hlXHXp2y78VRijTbz7C3cQVQhmSsumYg="
         }
       ]
     }

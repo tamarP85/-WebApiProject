@@ -11,7 +11,7 @@ namespace WebApiProject.Services;
 public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : GenericModel
 {
     protected List<T> ItemsList { get; }
-    protected  string fileName;
+    protected string fileName;
 
     protected string filePath;
 
@@ -32,23 +32,23 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
     //     }
     // }
     public IGenericServicesJson(IHostEnvironment env)
-{
-    fileName = typeof(T).Name + ".json"; // הגדרה ברמת האינסטנציה
-    filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
-    System.Console.WriteLine("-----------------");
-    System.Console.WriteLine(filePath);
-System.Console.WriteLine($"Current Type: {typeof(T).Name}");
-System.Console.WriteLine($"File Name: {fileName}");
-System.Console.WriteLine($"File Path: {filePath}");
-    using (var jsonFile = File.OpenText(filePath))
     {
-        ItemsList = JsonSerializer.Deserialize<List<T>>(jsonFile.ReadToEnd(),
-        new JsonSerializerOptions
+        fileName = typeof(T).Name + ".json"; // הגדרה ברמת האינסטנציה
+        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
+        System.Console.WriteLine("-----------------");
+        System.Console.WriteLine(filePath);
+        System.Console.WriteLine($"Current Type: {typeof(T).Name}");
+        System.Console.WriteLine($"File Name: {fileName}");
+        System.Console.WriteLine($"File Path: {filePath}");
+        using (var jsonFile = File.OpenText(filePath))
         {
-            PropertyNameCaseInsensitive = true
-        }) ?? new List<T>();
+            ItemsList = JsonSerializer.Deserialize<List<T>>(jsonFile.ReadToEnd(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            }) ?? new List<T>();
+        }
     }
-}
     protected void saveToFile()
     {
         File.WriteAllText(filePath, JsonSerializer.Serialize(ItemsList));
@@ -84,5 +84,6 @@ public static class GenericUtilitiesJson
        where T : GenericModel
        where TService : IGenericServicesJson<T>
     {
-services.AddScoped<IGenericServicesJson<T>, TService>();    }
+        services.AddScoped<IGenericServicesJson<T>, TService>();
+    }
 }
