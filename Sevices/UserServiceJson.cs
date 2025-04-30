@@ -12,9 +12,20 @@ namespace WebApiProject.Services;
 
 public class UserServiceJson : IGenericServicesJson<User>
 {
-    
-    public UserServiceJson(IHostEnvironment env):base(env)
-    {     
+    private readonly IHostEnvironment _env; // שדה לשמירת IHostEnvironment
+    public IceCreamServiceJson iceCreamService;
+    public UserServiceJson(IHostEnvironment env, IceCreamServiceJson iceCreamService) : base(env)
+    {
+        _env = env;
+        this.iceCreamService = iceCreamService;
+    }
+
+    public User Get(int id)
+    {
+        if (CheckTokenService.isValidRequest(id) != -1)
+            return ItemsList.FirstOrDefault(i => i.Id == id);
+        else
+            return null;
     }
     public override int Insert(User newUser)
     {
@@ -32,7 +43,7 @@ public class UserServiceJson : IGenericServicesJson<User>
         return newUser.Id;
     }
 
-    public override bool UpDate(int id , User newUser)
+    public override bool UpDate(int id, User newUser)
     {
         if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type))
             return false;
@@ -51,6 +62,49 @@ public class UserServiceJson : IGenericServicesJson<User>
         saveToFile();
         return true;
     }
+    public override bool Delete(int id)
+    {
+        var item = ItemsList.FirstOrDefault(i => i.Id == id);
+        if (item == null)
+            return false;        
+        List<IceCream> iceCreamsToDelete = iceCreamService.Get().Where(i => i.AgentId == id).ToList();
+        foreach (var iceCream in iceCreamsToDelete)
+        {
+            
+            iceCreamService.Delete(iceCream.Id);
+            // iceCreamService.ItemsList= // מחיקת כל גלידה
+        }
+        ItemsList.Remove(item);
+        saveToFile();
+        return true;
+    }
+    // public bool Delete(int id)
+    // {
+    //     var item = ItemsList.FirstOrDefault(i => i.Id == id);
+    //     if (item == null)
+    //         return false;
+    //     // יצירת שירות גלידות
+    //     // IceCreamServiceJson iceCreamService = new IceCreamServiceJson(_env);
+    //     var iceCreamsToDelete = iceCreamService.Get().Where(i => i.AgentId == id).ToList();
+    //     if (iceCreamsToDelete.Count() == 0)
+    //         return false;
+    //     ItemsList.Remove(item);
+    //     // הדפסת רשימת הגלידות למחיקה
+    //     Console.WriteLine("רשימת הגלידות למחיקה:");
+    //     foreach (var iceCream in iceCreamsToDelete)
+    //     {
+    //         Console.WriteLine($"Id: {iceCream.Id}, Name: {iceCream.Name}, Price: {iceCream.Price}");
+    //     }
+
+    //     // מחיקת הגלידות
+    //     foreach (var iceCream in iceCreamsToDelete)
+    //     {
+    //         iceCreamService.Delete(iceCream.Id);
+    //     }
+
+    //     saveToFile();
+    //     return true;
+    // }
     private bool IsValidEmail(string email)
     {
         string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";

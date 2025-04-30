@@ -39,7 +39,6 @@ public class LoginController : ControllerBase
             claims = new List<Claim>
            {
                 new Claim("type", "Agent"),
-                new Claim("AgentId", user.Id.ToString()),
             };
         }
         else
@@ -47,13 +46,13 @@ public class LoginController : ControllerBase
             claims = new List<Claim>
             {
                 new Claim("type", "Admin"),
-                new Claim("AgentId", user.Id.ToString()),
             };
         }
 
 
         var token = TokenService.GetToken(claims);
-        Console.WriteLine(token);
+        CurrentUserService current=new CurrentUserService(currentUser.Type,currentUser.Id);
+        Console.WriteLine(current.ToString());
         return new OkObjectResult(TokenService.WriteToken(token));
     }
 }

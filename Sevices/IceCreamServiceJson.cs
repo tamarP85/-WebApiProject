@@ -1,4 +1,3 @@
-
 using WebApiProject.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,38 +9,68 @@ using WebApiProject.Models;
 
 namespace WebApiProject.Services;
 
-    public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי: מימוש הממשק הגנרי
+public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי: מימוש הממשק הגנרי
+{
+
+    public IceCreamServiceJson(IHostEnvironment env) : base(env)
     {
+    }
+    public List<IceCream> Get()
+    {
+        if (CurrentUserService.currentUser.Type == "Admin")
+            return ItemsList;
+        return ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList();
+    }
 
-        public IceCreamServiceJson(IHostEnvironment env):base(env)
-        {
-        }
-       
-        public override int Insert(IceCream newIceCream)
-        {
-            if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name))
-                return -1;
+    public IceCream Get(int id)
+    {
+        if (CheckTokenService.isValidRequest(id) != -1)
+            return ItemsList.FirstOrDefault(i => i.Id == id);
+        else
+            return null;
+    }
+    public bool Delete(int id)
+    {
+        var item = ItemsList.FirstOrDefault(i => i.Id == id);
+        //if (CheckTokenService.isValidRequest(item.AgentId) != -1){
+        if (item == null)
+            return false;
+        ItemsList.Remove(item);
+        
+        saveToFile();
+        return true;
+        // }
+        return false;
+    }
 
-            int maxId = ItemsList.Max(i => i.Id);
-            newIceCream.Id = maxId + 1;
-            ItemsList.Add(newIceCream);
-            saveToFile();
-            return newIceCream.Id;
-        }
 
-        public  override bool UpDate(int id, IceCream newIceCream)
-        {
-            if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name) || newIceCream.Id != id)
-                return false;
+    public override int Insert(IceCream newIceCream)
+    {
+        if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name))
+            return -1;
+        newIceCream.AgentId = CurrentUserService.currentUser.Id;
+        int maxId = ItemsList.Max(i => i.Id);
+        newIceCream.Id = maxId + 1;
+        ItemsList.Add(newIceCream);
+        saveToFile();
+        return newIceCream.Id;
+    }
 
-            var iceCream = ItemsList.FirstOrDefault(i => i.Id == id);
-            if (iceCream == null)
-                return false;
+    public override bool UpDate(int id, IceCream newIceCream)
+    {
+        if (CheckTokenService.isValidRequest(id)!=-1)
+            return false;
+        if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name) || newIceCream.Id != id)
+            return false;
 
-            iceCream.Name = newIceCream.Name;
-            iceCream.Price = newIceCream.Price; // שינוי: עדכון המחיר
-            saveToFile();
-            return true;
-        }
+        var iceCream = ItemsList.FirstOrDefault(i => i.Id == id);
+        if (iceCream == null)
+            return false;
+
+        iceCream.Name = newIceCream.Name;
+        iceCream.Price = newIceCream.Price; // שינוי: עדכון המחיר
+        saveToFile();
+        return true;
+    }
 
 }

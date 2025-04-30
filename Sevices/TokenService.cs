@@ -13,7 +13,7 @@ namespace Services
 {
     public static class TokenService
     {
-        private static SymmetricSecurityKey key 
+        private static SymmetricSecurityKey key
             = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(
                     "SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ")); // מפתח חתימה
@@ -29,7 +29,7 @@ namespace Services
             );
 
         public static TokenValidationParameters 
-            GetTokenValidationParameters() =>
+        GetTokenValidationParameters() =>
             new TokenValidationParameters
             {
                 ValidIssuer = issuer,
