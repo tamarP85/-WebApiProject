@@ -15,14 +15,14 @@ public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי:
     public IceCreamServiceJson(IHostEnvironment env) : base(env)
     {
     }
-    public override List<IceCream> Get()
+    public new List<IceCream> Get()
     {
-    //    System.Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-       System.Console.WriteLine(ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList());
-       System.Console.WriteLine("00000000000000000000000000000");
+        //System.Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+        System.Console.WriteLine(ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList());
+        System.Console.WriteLine("i am in ovveride");
         if (CurrentUserService.currentUser.Type == "Admin")
             return ItemsList;
-    return ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList();
+        return ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList();
     }
 
     public IceCream Get(int id)
@@ -35,15 +35,15 @@ public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי:
     public override bool Delete(int id)
     {
         var item = ItemsList.FirstOrDefault(i => i.Id == id);
-        
+
         if (item == null)
-            return false; 
+            return false;
         if (CheckTokenService.isValidRequest(item.AgentId) != -1)
-            {
-                ItemsList.Remove(item);
-                saveToFile();
-                return true;
-            }
+        {
+            ItemsList.Remove(item);
+            saveToFile();
+            return true;
+        }
         return false;
     }
 
@@ -62,7 +62,7 @@ public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי:
 
     public override bool UpDate(int id, IceCream newIceCream)
     {
-        if (CheckTokenService.isValidRequest(id)!=-1)
+        if (CheckTokenService.isValidRequest(id) != -1)
             return false;
         if (newIceCream == null || newIceCream.Price <= 0 || string.IsNullOrWhiteSpace(newIceCream.Name) || newIceCream.Id != id)
             return false;

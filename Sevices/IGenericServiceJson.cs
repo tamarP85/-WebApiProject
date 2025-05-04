@@ -16,7 +16,7 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
     protected string filePath;
 
 
-    public IGenericServicesJson(IHostEnvironment env)
+    public  IGenericServicesJson(IHostEnvironment env)
     {
         fileName = typeof(T).Name + ".json"; // הגדרה ברמת האינסטנציה
         filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
@@ -34,8 +34,9 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
         File.WriteAllText(filePath, JsonSerializer.Serialize(ItemsList));
     }
 
-    public virtual List<T> Get()
-    { 
+    public   List<T> Get() 
+    {
+        System.Console.WriteLine("i am in virtual"); 
         return ItemsList;
     }
 

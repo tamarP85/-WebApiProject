@@ -8,7 +8,10 @@
 </head>
 
 <body>
-    <h3>Add</h3>
+    <!-- כפתור עבור משתמשי Admin יתווסף כאן דינמית -->
+    <div id="admin-tools"></div>
+
+    <h3>Add IceCream</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-code" placeholder="New iceCream Code"><br>
         <input type="text" id="add-name" placeholder="New iceCream Name"><br>
@@ -18,7 +21,7 @@
         <input type="submit" value="Add">
     </form>
 
-    <div id="editForm">
+    <div id="editForm" style="display: none;">
         <h3>Edit</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
@@ -46,10 +49,9 @@
         <tbody id="iceCreams"></tbody>
     </table>
 
-    <script src="js/site.js" asp-append-version="true"></script>
+    <script src="js/site.js"></script>
     <script type="text/javascript">
-        // checkValidity();
-        getItems();
+        document.addEventListener("DOMContentLoaded", checkValidity);
     </script>
 </body>
 

@@ -35,16 +35,16 @@ public class ErrorMiddleware
                 // קוד לשליחת המייל
                 MailMessage mail = new MailMessage("y05271907@gmail.com", "9745544b@gmail.com", $"תקלה בשרת {e.Message}", "פנה לתמיכה התכנית");
 
-                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
-                {
-                    smtp.Credentials = new NetworkCredential("y05271907@gmail.com", "y089741623");
-                    smtp.EnableSsl = true;
+                // using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
+                // {
+                //     smtp.Credentials = new NetworkCredential("y05271907@gmail.com", "y089741623");
+                //     smtp.EnableSsl = true;
 
-                    Console.WriteLine("before send mail");
-                    smtp.Send(mail);
-                    Console.WriteLine("after send mail");
-                    Console.WriteLine("המייל נשלח בהצלחה");
-                }
+                //     Console.WriteLine("before send mail");
+                //     smtp.Send(mail);
+                //     Console.WriteLine("after send mail");
+                //     Console.WriteLine("המייל נשלח בהצלחה");
+                // }
             }
             catch (Exception ex)
             {
