@@ -34,8 +34,8 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
         File.WriteAllText(filePath, JsonSerializer.Serialize(ItemsList));
     }
 
-    public List<T> Get()
-    {
+    public virtual List<T> Get()
+    { 
         return ItemsList;
     }
 

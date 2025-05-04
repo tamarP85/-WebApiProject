@@ -15,11 +15,14 @@ public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי:
     public IceCreamServiceJson(IHostEnvironment env) : base(env)
     {
     }
-    public List<IceCream> Get()
+    public override List<IceCream> Get()
     {
+    //    System.Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+       System.Console.WriteLine(ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList());
+       System.Console.WriteLine("00000000000000000000000000000");
         if (CurrentUserService.currentUser.Type == "Admin")
             return ItemsList;
-        return ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList();
+    return ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList();
     }
 
     public IceCream Get(int id)
@@ -29,17 +32,18 @@ public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי:
         else
             return null;
     }
-    public bool Delete(int id)
+    public override bool Delete(int id)
     {
         var item = ItemsList.FirstOrDefault(i => i.Id == id);
-        //if (CheckTokenService.isValidRequest(item.AgentId) != -1){
-        if (item == null)
-            return false;
-        ItemsList.Remove(item);
         
-        saveToFile();
-        return true;
-        // }
+        if (item == null)
+            return false; 
+        if (CheckTokenService.isValidRequest(item.AgentId) != -1)
+            {
+                ItemsList.Remove(item);
+                saveToFile();
+                return true;
+            }
         return false;
     }
 

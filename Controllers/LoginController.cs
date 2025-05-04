@@ -8,6 +8,7 @@ using Services;
 using WebApiProject.Interfaces;
 using WebApiProject.Models;
 using WebApiProject.Services;
+
 namespace WebApiProject.Controllers;
 
 [ApiController]
@@ -21,12 +22,13 @@ public class LoginController : ControllerBase
     }
 
     [HttpPost]
-    [Route("[action]")]
+    // [Route("[action]")]
     public ActionResult<String> Login([FromBody] User user)
     {
-        User currentUser = userService.Get().FirstOrDefault(u => u.Name == user.Name && u.Password == user.Password);
+
+        User currentUser = userService.Get().FirstOrDefault(u => u.Name == user.Name&& u.Password == user.Password);
         System.Console.WriteLine("----------------");
-        System.Console.WriteLine(currentUser);
+        System.Console.WriteLine(currentUser.Type);
         if (currentUser == null)
         {
             return NotFound(); 
@@ -48,11 +50,13 @@ public class LoginController : ControllerBase
                 new Claim("type", "Admin"),
             };
         }
-
-
         var token = TokenService.GetToken(claims);
+        CurrentUserService.currentUser=null;
         CurrentUserService current=new CurrentUserService(currentUser.Type,currentUser.Id);
-        Console.WriteLine(current.ToString());
+        Console.WriteLine("**********");
+        Console.WriteLine(CurrentUserService.currentUser.Type);
+        Console.WriteLine(CurrentUserService.currentUser.Id);
+
         return new OkObjectResult(TokenService.WriteToken(token));
     }
 }

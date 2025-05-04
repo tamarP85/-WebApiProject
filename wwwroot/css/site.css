@@ -148,3 +148,140 @@ td button:hover.delete {
     font-weight: bold;
     margin-top: 20px;
 }
+/* עיצוב כללי
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #555555;
+    margin: 10px 0 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #aaaaaa;
+}
+
+.login-button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #e55a4e;
+}
+
+.login-button:active {
+    transform: scale(0.98);
+}
+
+
+.floating-ice-cream {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.ice-cream {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    animation: float 5s infinite ease-in-out;
+}
+
+.ice-cream:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.ice-cream:nth-child(2) {
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.ice-cream:nth-child(3) {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.ice-cream:nth-child(4) {
+    left: 70%;
+    animation-delay: 3s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+} */

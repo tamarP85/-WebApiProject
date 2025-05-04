@@ -1,16 +1,64 @@
 {
   "Files": [
     {
-      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\css\\users.css",
+      "PackagePath": "staticwebassets\\css\\users.css"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\images\\icecream1.png",
+      "PackagePath": "staticwebassets\\images\\icecream1.png"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\images\\icecream2.png",
+      "PackagePath": "staticwebassets\\images\\icecream2.png"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\images\\icecream3.png",
+      "PackagePath": "staticwebassets\\images\\icecream3.png"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\images\\icecream4.png",
+      "PackagePath": "staticwebassets\\images\\icecream4.png"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\images\\icecream5.png",
+      "PackagePath": "staticwebassets\\images\\icecream5.png"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\images\\icecream6.png",
+      "PackagePath": "staticwebassets\\images\\icecream6.png"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\js\\users.js",
+      "PackagePath": "staticwebassets\\js\\users.js"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\wwwroot\\users.html",
+      "PackagePath": "staticwebassets\\users.html"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebApiProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

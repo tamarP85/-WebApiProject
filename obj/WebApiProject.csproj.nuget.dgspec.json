@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\WebApiProject.csproj": {}
+    "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\WebApiProject.csproj": {}
   },
   "projects": {
-    "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\WebApiProject.csproj": {
+    "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\WebApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\WebApiProject.csproj",
+        "projectUniqueName": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\WebApiProject.csproj",
         "projectName": "WebApiProject",
-        "projectPath": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\WebApiProject.csproj",
+        "projectPath": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\WebApiProject.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject\\obj\\",
+        "outputPath": "Z:\\B\\יעקבזון יהודית\\CORE\\הפרויקט שלי\\-WebApiProject-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    color: #4caf50;
+}
+
+form {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus {
+    border-color: #81c784;
+}
+
+input[type='submit'],
+button,
+[aria-label] {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type='submit']:hover,
+button:hover,
+[aria-label]:hover {
+    background-color: #388e3c;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #a5d6a7;
+    padding: 10px;
+    color: #2e7d32;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+td button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+td button.edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+td button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+td button:hover.edit {
+    background-color: #388e3c;
+}
+
+td button:hover.delete {
+    background-color: #d32f2f;
+}
+
+#counter {
+    font-weight: bold;
+    margin-top: 20px;
+}

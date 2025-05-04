@@ -1,12 +1,53 @@
+document.addEventListener("DOMContentLoaded", checkValidity);
 const uri = '/IceCream';
 let iceCreams = [];
+let token = localStorage.getItem('token');
 
 function getItems() {
-    fetch(uri)
-        .then(response => response.json())
-        .then(data => _displayItems(data))
-        .catch(error => console.error('Unable to get items.', error));
+    fetch(uri, {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            return response.text(); // טען את התגובה כטקסט
+        })
+        .then(text => {
+            if (!text) {
+                throw new Error('Response is empty');
+            }
+            const data = JSON.parse(text); // המרת הטקסט ל-JSON
+            console.log(data);
+            _displayItems(data);
+        })
+
+    .catch(error => console.error('Unable to get items.', error));
 }
+//     fetch(uri, {
+//         method: 'GET',
+//         headers: {
+//             'Authorization': 'Bearer ' + token, // הוספת הטוקן לכותרת
+//             'Accept': 'application/json',
+//             'Content-Type': 'application/json'
+//         }
+//     })
+//         .then(response => {
+//             console.log(response.body);
+//              response.json();
+//         })
+//         .then(data => {
+//             console.log(data);
+//             _displayItems(data);
+//         })
+//         .catch(error => console.error('Unable to get items.', error));
+// }
+
 
 function addItem() {
     const addCodeTextbox = document.getElementById('add-code');
@@ -14,15 +55,17 @@ function addItem() {
     const addDescriptionTextbox = document.getElementById('add-description');
     const addPriceTextbox = document.getElementById('add-price');
     const item = {
-        code: addCodeTextbox.value.trim(),
-        name: addNameTextbox.value.trim(),
-        description: addDescriptionTextbox.value.trim(),
-        price: addPriceTextbox.value.trim(),
+        Id: addCodeTextbox.value.trim(),
+        Name: addNameTextbox.value.trim(),
+        Price: addPriceTextbox.value.trim(),
+        Description: addDescriptionTextbox.value.trim(),
+        AgentId: -1,
     };
 
     fetch(uri, {
             method: 'POST',
             headers: {
+                'Authorization': 'Bearer ' + token,
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
@@ -41,7 +84,11 @@ function addItem() {
 
 function deleteItem(id) {
     fetch(`${uri}/${id}`, {
-            method: 'DELETE'
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + token,
+            },
         })
         .then(() => getItems())
         .catch(error => console.error('Unable to delete item.', error));
@@ -74,6 +121,7 @@ function updateItem() {
     fetch(`${uri}/${itemId}`, {
             method: 'PUT',
             headers: {
+                'Authorization': 'Bearer ' + token,
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
@@ -137,4 +185,39 @@ function _displayItems(data) {
     });
 
     iceCreams = data;
+}
+
+function checkValidity() {
+
+    if (!checkValidity1())
+        window.location.href = '../login.html';
+    // else
+    // getItems();
+}
+const checkValidity1 = () => {
+    console.log(token);
+    if (!token)
+        return false;
+    // פיצול הטוקן לשלושה חלקים
+    const parts = token.split('.');
+    if (parts.length !== 3) {
+        return false; // טוקן לא תקין
+    }
+    // פענוח ה-payload
+    const payload = JSON.parse(atob(parts[1]));
+
+    // בדיקת תאריך התוקף
+    const currentDate = Math.floor(Date.now() / 1000); // תאריך נוכחי בשניות
+    if (payload.exp && payload.exp < currentDate) {
+        return false; // הטוקן פג תוקף
+    }
+
+    // בדיקת ערך מותאם אישית
+    if (payload.type !== "Agent" && payload.type !== "Admin") {
+        return false; // הטוקן לא תקין לפי המשתנים המותאמים אישית
+    }
+
+    // בדיקות נוספות (כגון חתימה) יכולות להתבצע כאן
+
+    return true; // הטוקן תקף
 }
