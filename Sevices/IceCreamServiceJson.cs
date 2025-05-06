@@ -15,9 +15,10 @@ public class IceCreamServiceJson : IGenericServicesJson<IceCream> // שינוי:
     public IceCreamServiceJson(IHostEnvironment env) : base(env)
     {
     }
-    public new List<IceCream> Get()
+    public override List<IceCream> Get()
     {
-        //System.Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+        System.Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+        System.Console.WriteLine(CurrentUserService.currentUser);
         System.Console.WriteLine(ItemsList.Where(c => c.AgentId == CurrentUserService.currentUser.Id).ToList());
         System.Console.WriteLine("i am in ovveride");
         if (CurrentUserService.currentUser.Type == "Admin")

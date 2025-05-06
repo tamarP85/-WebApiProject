@@ -20,13 +20,20 @@ public class IceCreamController : ControllerBase
     public ActionResult<IEnumerable<IceCream>> Get()
     {
         System.Console.WriteLine("I am in controller %%%%%%%%%%%%%%%%%%%%%");
-        System.Console.WriteLine("1111111111111"+iceCreamService.Get(12));
-        var derivedService = iceCreamService as IceCreamServiceJson;
-        var a = derivedService.Get();
-        System.Console.WriteLine("==================="+derivedService);
+        var i=iceCreamService.Get();
+        System.Console.WriteLine(i.Count());
+        // System.Console.WriteLine(i.Count());
+        System.Console.WriteLine("1111111111111" + i);
+
+        // if (iceCreamService is IceCreamServiceJson)
+        //     return (iceCreamService as IceCreamServiceJson).GetIce();
+        // else
+        // {
+        //    return  iceCreamService.Get();
+        // }
+        System.Console.WriteLine("===================" + iceCreamService);
         System.Console.WriteLine("8888888888888888888888");
-        System.Console.WriteLine(a);
-        return a;
+        return  i;
     }
 
     [HttpGet("{id}")]

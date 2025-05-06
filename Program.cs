@@ -1,6 +1,8 @@
 
 using Microsoft.OpenApi.Models;
 using WebApiProject.Middleware;
+using WebApiProject.Middlewares;
+
 using WebApiProject.Services;
 using WebApiProject.Models;
 
@@ -95,6 +97,7 @@ builder.Services.AddSwaggerGen(c =>
 // הוספת השירותים הנדרשים
 builder.Services.AddScoped<IceCreamServiceJson>(); // הוספת IceCreamServiceJson
 builder.Services.AddScoped<UserServiceJson>(); // הוספת UserServiceJson
+builder.Services.AddScoped<ActiveUserService>(); // הוספת UserServiceJson
 
 var app = builder.Build();
 
@@ -108,7 +111,8 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseAuthentication(); // חובה לפני Authorization
+app.UseAuthentication();
+app.UseMiddleware<ActiveUserMiddleware>(); 
 app.UseAuthorization();
 app.UseLogMiddleware();
 app.UseErrorMiddleware();

@@ -457,7 +457,6 @@ Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebA
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.sourcelink.json
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\scopedcss\bundle\WebApiProject.styles.css
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\dhlqenrrzi-660cxbgz8s.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\eptw1s3nfw-dutknv4rgg.gz
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\sfux7oebrb-7wbinuc92w.gz
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\hd6u7mlz96-9elsvufubc.gz
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\7etrzzc4uo-penowu8qrv.gz
@@ -478,5 +477,6 @@ Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\refi
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.pdb
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.genruntimeconfig.cache
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\ref\WebApiProject.dll
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\4vh1o9v6r9-eulcfyr7wg.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\ppcu9vh0wd-8xmq5iord5.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\eptw1s3nfw-8atn0dborq.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\4vh1o9v6r9-kvh550j0ec.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\ppcu9vh0wd-vhvu08gmuf.gz

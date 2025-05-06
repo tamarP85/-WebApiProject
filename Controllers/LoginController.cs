@@ -34,7 +34,7 @@ public class LoginController : ControllerBase
             return NotFound(); 
         }
 
-        var claims = new List<Claim>();
+        var claims = new List<Claim> { new Claim("Id", currentUser.Id.ToString()) };
         if (currentUser.Type == "Agent")
         {
 

@@ -1,49 +1,7 @@
+document.addEventListener("DOMContentLoaded", checkValidity);
 const uri = '/IceCream';
 let iceCreams = [];
 let token = localStorage.getItem('token');
-
-function checkValidity() {
-    const userType = checkValidity1();
-    if (!userType) {
-        window.location.href = '../login.html';
-    } else {
-        if (userType === "Admin") {
-            addAdminButton();
-        }
-        getItems();
-    }
-}
-
-const checkValidity1 = () => {
-    if (!token) return false;
-
-    const parts = token.split('.');
-    if (parts.length !== 3) return false;
-
-    const payload = JSON.parse(atob(parts[1]));
-    const currentDate = Math.floor(Date.now() / 1000);
-
-    if (payload.exp && payload.exp < currentDate) return false;
-
-    if (payload.type !== "Agent" && payload.type !== "Admin") return false;
-
-    return payload.type;
-};
-
-function addAdminButton() {
-    const adminToolsDiv = document.getElementById('admin-tools');
-    const adminButton = document.createElement('button');
-    adminButton.innerText = "View All Customers";
-    adminButton.setAttribute('onclick', "window.location.href='/users.html';");
-    adminButton.style.margin = "10px";
-    adminButton.style.padding = "10px";
-    adminButton.style.backgroundColor = "#4CAF50";
-    adminButton.style.color = "white";
-    adminButton.style.border = "none";
-    adminButton.style.cursor = "pointer";
-
-    adminToolsDiv.appendChild(adminButton);
-}
 
 function getItems() {
     fetch(uri, {
@@ -52,13 +10,24 @@ function getItems() {
                 'Authorization': 'Bearer ' + token,
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
-            }
+            },
+            credentials: 'include'
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            return response.json(); // טען את התגובה כ-JSON
+        })
         .then(data => {
+            console.log(data);
+            if (!data) {
+                throw new Error('Response is empty');
+            }
             _displayItems(data);
         })
         .catch(error => console.error('Unable to get items.', error));
+
 }
 
 function addItem() {
@@ -83,6 +52,7 @@ function addItem() {
             },
             body: JSON.stringify(item)
         })
+        .then(response => response.json())
         .then(() => {
             getItems();
             addCodeTextbox.value = '';
@@ -113,17 +83,21 @@ function displayEditForm(id) {
     document.getElementById('edit-description').value = item.description;
     document.getElementById('edit-price').value = item.price;
 
+    // document.getElementById('edit-id').value = item.id;
     document.getElementById('editForm').style.display = 'block';
 }
 
 function updateItem() {
+
     const itemId = document.getElementById('edit-code').value;
+    console.log("bcngf" + itemId);
     const item = {
         id: parseInt(itemId, 10),
         name: document.getElementById('edit-name').value.trim(),
         description: document.getElementById('edit-description').value.trim(),
         price: document.getElementById('edit-price').value.trim()
     };
+
 
     fetch(`${uri}/${itemId}`, {
             method: 'PUT',
@@ -138,19 +112,32 @@ function updateItem() {
         .catch(error => console.error('Unable to update item.', error));
 
     closeInput();
+
+    return false;
 }
 
 function closeInput() {
     document.getElementById('editForm').style.display = 'none';
 }
 
+function _displayCount(itemCount) {
+    const name = (itemCount === 1) ? 'IceCream' : 'iceCream kinds';
+
+    document.getElementById('counter').innerText = `${itemCount} ${name}`;
+}
+
 function _displayItems(data) {
+
+    const button = document.createElement('button');
     const tBody = document.getElementById('iceCreams');
     tBody.innerHTML = '';
 
-    const button = document.createElement('button');
+    _displayCount(data.length);
+
+
 
     data.forEach(item => {
+        console.log(item);
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';
         editButton.setAttribute('onclick', `displayEditForm(${item.id})`);
@@ -158,30 +145,62 @@ function _displayItems(data) {
         let deleteButton = button.cloneNode(false);
         deleteButton.innerText = 'Delete';
         deleteButton.setAttribute('onclick', `deleteItem(${item.id})`);
-
         let tr = tBody.insertRow();
-
         let td1 = tr.insertCell(0);
         let td2 = tr.insertCell(1);
         let td3 = tr.insertCell(2);
         let td4 = tr.insertCell(3);
 
-        let textNodeId = document.createTextNode(item.id);
         let textNodeName = document.createTextNode(item.name);
-        let textNodeDescription = document.createTextNode(item.description);
+        let textNodeId = document.createTextNode(item.id);
+        let textNodeDescpription = document.createTextNode(item.description);
         let textNodePrice = document.createTextNode(item.price);
-
-        td1.appendChild(textNodeId);
-        td2.appendChild(textNodeName);
-        td3.appendChild(textNodeDescription);
-        td4.appendChild(textNodePrice);
-
         let td5 = tr.insertCell(4);
         let td6 = tr.insertCell(5);
 
+        td2.appendChild(textNodeName);
+        td1.appendChild(textNodeId);
+        td3.appendChild(textNodeDescpription);
+        td4.appendChild(textNodePrice);
         td5.appendChild(deleteButton);
         td6.appendChild(editButton);
+
     });
 
     iceCreams = data;
+}
+
+function checkValidity() {
+
+    if (!checkValidity1())
+        window.location.href = '../login.html';
+    else
+        getItems();
+}
+const checkValidity1 = () => {
+    console.log(token);
+    if (!token)
+        return false;
+    // פיצול הטוקן לשלושה חלקים
+    const parts = token.split('.');
+    if (parts.length !== 3) {
+        return false; // טוקן לא תקין
+    }
+    // פענוח ה-payload
+    const payload = JSON.parse(atob(parts[1]));
+
+    // בדיקת תאריך התוקף
+    const currentDate = Math.floor(Date.now() / 1000); // תאריך נוכחי בשניות
+    if (payload.exp && payload.exp < currentDate) {
+        return false; // הטוקן פג תוקף
+    }
+
+    // בדיקת ערך מותאם אישית
+    if (payload.type !== "Agent" && payload.type !== "Admin") {
+        return false; // הטוקן לא תקין לפי המשתנים המותאמים אישית
+    }
+
+    // בדיקות נוספות (כגון חתימה) יכולות להתבצע כאן
+
+    return true; // הטוקן תקף
 }

@@ -34,9 +34,10 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
         File.WriteAllText(filePath, JsonSerializer.Serialize(ItemsList));
     }
 
-    public   List<T> Get() 
+    public virtual  List<T> Get() 
     {
         System.Console.WriteLine("i am in virtual"); 
+        System.Console.WriteLine(ItemsList.Count()+"////////////////");
         return ItemsList;
     }
 
@@ -58,13 +59,13 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
         return true;
     }
 }
-
 public static class GenericUtilitiesJson
 {
     public static void AddGenericJson<T, TService>(this IServiceCollection services)
        where T : GenericModel
-       where TService : IGenericServicesJson<T>
+       where TService :IGenericServicesJson<T>
     {
+        // תוספת: הגדרת מחזור חיים Scoped
         services.AddScoped<IGenericServicesJson<T>, TService>();
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8aHaW/tI/BKms4a1s62Ja09bS/ae6Jf345Ms/7wH1Hg=",
+  "Hash": "+JpvvMPkHUxE+NL7KjXoI9perAU7UoOdInldA6O9l0E=",
   "Source": "WebApiProject",
   "BasePath": "_content/WebApiProject",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-eulcfyr7wg.gz",
+      "Identity": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-kvh550j0ec.gz",
       "SourceId": "WebApiProject",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApiProject",
-      "RelativePath": "index#[.{fingerprint=eulcfyr7wg}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=kvh550j0ec}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ifmrc18xzg",
-      "Integrity": "smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4=",
+      "Fingerprint": "oc8aszymeb",
+      "Integrity": "yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\login.css"
     },
     {
-      "Identity": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-dutknv4rgg.gz",
+      "Identity": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-8atn0dborq.gz",
       "SourceId": "WebApiProject",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApiProject",
-      "RelativePath": "css/site#[.{fingerprint=dutknv4rgg}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=8atn0dborq}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zh8qgc7cs4",
-      "Integrity": "h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM=",
+      "Fingerprint": "5g3yve5cl4",
+      "Integrity": "9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css"
@@ -164,12 +164,12 @@
       "OriginalItemSpec": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\login.html"
     },
     {
-      "Identity": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-8xmq5iord5.gz",
+      "Identity": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-vhvu08gmuf.gz",
       "SourceId": "WebApiProject",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApiProject",
-      "RelativePath": "js/site#[.{fingerprint=8xmq5iord5}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=vhvu08gmuf}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -178,8 +178,8 @@
       "RelatedAsset": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8cc1i1r0im",
-      "Integrity": "uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo=",
+      "Fingerprint": "mv3bbovdub",
+      "Integrity": "npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dutknv4rgg",
-      "Integrity": "69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ=",
+      "Fingerprint": "8atn0dborq",
+      "Integrity": "AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -409,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eulcfyr7wg",
-      "Integrity": "al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0=",
+      "Fingerprint": "kvh550j0ec",
+      "Integrity": "wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -451,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8xmq5iord5",
-      "Integrity": "dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI=",
+      "Fingerprint": "vhvu08gmuf",
+      "Integrity": "DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -821,13 +821,13 @@
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-dutknv4rgg.gz",
+      "Route": "css/site.8atn0dborq.css",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-8atn0dborq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000754716981"
+          "Quality": "0.000700770848"
         }
       ],
       "ResponseHeaders": [
@@ -837,19 +837,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1324"
+          "Value": "1426"
         },
         {
           "Name": "ETag",
-          "Value": "\"h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM=\""
+          "Value": "\"9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -865,18 +865,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ=\""
+          "Value": "W/\"AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "8atn0dborq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ="
+          "Value": "sha256-AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.8atn0dborq.css",
       "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -886,7 +894,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4780"
+          "Value": "5191"
         },
         {
           "Name": "Content-Type",
@@ -894,121 +902,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ=\""
+          "Value": "\"AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-dutknv4rgg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1324"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.dutknv4rgg.css",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-dutknv4rgg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000754716981"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1324"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dutknv4rgg"
+          "Value": "8atn0dborq"
         },
         {
           "Name": "label",
@@ -1016,13 +924,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ="
+          "Value": "sha256-AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM="
         }
       ]
     },
     {
-      "Route": "css/site.dutknv4rgg.css",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
+      "Route": "css/site.8atn0dborq.css.gz",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-8atn0dborq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1031,7 +939,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4780"
+          "Value": "1426"
         },
         {
           "Name": "Content-Type",
@@ -1039,56 +947,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ=\""
+          "Value": "\"9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dutknv4rgg"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-69j8Y1R1lFbIYx8bZHJI1YvFwVwxzKSHWSZAo5g7EgQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.dutknv4rgg.css.gz",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-dutknv4rgg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1324"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1106,7 +969,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dutknv4rgg"
+          "Value": "8atn0dborq"
         },
         {
           "Name": "label",
@@ -1114,7 +977,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-h938uyf71OtLcZcSY7AdVBOIScSVzLfu2nxgctRrUdM="
+          "Value": "sha256-9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-8atn0dborq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000700770848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1426"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AAjmtneprf6UbVMi4cleJGBT6iyOJDBNoKKXkSj3YIM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\eptw1s3nfw-8atn0dborq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9QzTP5S6Pd1PHJ5i8YIFjMVuea+5jVdF9uVZIV3H2NA="
         }
       ]
     },
@@ -1909,13 +1909,13 @@
       ]
     },
     {
-      "Route": "index.eulcfyr7wg.html",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-eulcfyr7wg.gz",
+      "Route": "index.html",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-kvh550j0ec.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001445086705"
+          "Quality": "0.001058201058"
         }
       ],
       "ResponseHeaders": [
@@ -1925,19 +1925,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "691"
+          "Value": "944"
         },
         {
           "Name": "ETag",
-          "Value": "\"smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4=\""
+          "Value": "\"yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:36:59 GMT"
+          "Value": "Sun, 04 May 2025 17:16:21 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -1953,26 +1953,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0=\""
+          "Value": "W/\"wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "eulcfyr7wg"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0="
+          "Value": "sha256-wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo="
         }
       ]
     },
     {
-      "Route": "index.eulcfyr7wg.html",
+      "Route": "index.html",
       "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1982,7 +1974,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1734"
+          "Value": "2711"
         },
         {
           "Name": "Content-Type",
@@ -1990,11 +1982,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0=\""
+          "Value": "\"wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:36:59 GMT"
+          "Value": "Sun, 04 May 2025 17:16:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-kvh550j0ec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:16:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY="
+        }
+      ]
+    },
+    {
+      "Route": "index.kvh550j0ec.html",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-kvh550j0ec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001058201058"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:16:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kvh550j0ec"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo="
+        }
+      ]
+    },
+    {
+      "Route": "index.kvh550j0ec.html",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:16:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2004,7 +2141,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eulcfyr7wg"
+          "Value": "kvh550j0ec"
         },
         {
           "Name": "label",
@@ -2012,13 +2149,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0="
+          "Value": "sha256-wD7A7RCaR+UWUV0HErzQCsT5PClSJwz6onamdM/3dTo="
         }
       ]
     },
     {
-      "Route": "index.eulcfyr7wg.html.gz",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-eulcfyr7wg.gz",
+      "Route": "index.kvh550j0ec.html.gz",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-kvh550j0ec.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2027,7 +2164,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "691"
+          "Value": "944"
         },
         {
           "Name": "Content-Type",
@@ -2035,11 +2172,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4=\""
+          "Value": "\"yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:36:59 GMT"
+          "Value": "Sun, 04 May 2025 17:16:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2057,7 +2194,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eulcfyr7wg"
+          "Value": "kvh550j0ec"
         },
         {
           "Name": "label",
@@ -2065,144 +2202,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-eulcfyr7wg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001445086705"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "691"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:36:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1734"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:36:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-al+S4aJqiL27McdlWhxjM+bXfhcl5qoBiAQtc3y5IT0="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\4vh1o9v6r9-eulcfyr7wg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:36:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-smXMdcK/bVmKHRwqE7HrUC7emM0d/vITeP79J4aKHz4="
+          "Value": "sha256-yPCcP1HoU+E3Ig0icChLo3OMIMvk0R7GiCRRdMCknaY="
         }
       ]
     },
@@ -2505,13 +2505,13 @@
       ]
     },
     {
-      "Route": "js/site.8xmq5iord5.js",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-8xmq5iord5.gz",
+      "Route": "js/site.js",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-vhvu08gmuf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000671591672"
+          "Quality": "0.000543183053"
         }
       ],
       "ResponseHeaders": [
@@ -2521,19 +2521,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1488"
+          "Value": "1840"
         },
         {
           "Name": "ETag",
-          "Value": "\"uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo=\""
+          "Value": "\"npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:42:54 GMT"
+          "Value": "Tue, 06 May 2025 13:22:40 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2549,26 +2549,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI=\""
+          "Value": "W/\"DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "8xmq5iord5"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI="
+          "Value": "sha256-DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI="
         }
       ]
     },
     {
-      "Route": "js/site.8xmq5iord5.js",
+      "Route": "js/site.js",
       "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2578,7 +2570,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5837"
+          "Value": "6483"
         },
         {
           "Name": "Content-Type",
@@ -2586,11 +2578,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI=\""
+          "Value": "\"DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:42:54 GMT"
+          "Value": "Tue, 06 May 2025 13:22:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-vhvu08gmuf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 13:22:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.vhvu08gmuf.js",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-vhvu08gmuf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000543183053"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1840"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 13:22:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhvu08gmuf"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.vhvu08gmuf.js",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 13:22:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2600,7 +2737,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8xmq5iord5"
+          "Value": "vhvu08gmuf"
         },
         {
           "Name": "label",
@@ -2608,13 +2745,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI="
+          "Value": "sha256-DWUAgjAHWTmndgVuGYx5LsqRsEMmBp2jSmahvJQ30OI="
         }
       ]
     },
     {
-      "Route": "js/site.8xmq5iord5.js.gz",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-8xmq5iord5.gz",
+      "Route": "js/site.vhvu08gmuf.js.gz",
+      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-vhvu08gmuf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2623,7 +2760,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1488"
+          "Value": "1840"
         },
         {
           "Name": "Content-Type",
@@ -2631,11 +2768,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo=\""
+          "Value": "\"npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:42:54 GMT"
+          "Value": "Tue, 06 May 2025 13:22:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2653,7 +2790,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8xmq5iord5"
+          "Value": "vhvu08gmuf"
         },
         {
           "Name": "label",
@@ -2661,144 +2798,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-8xmq5iord5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000671591672"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1488"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5837"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dByyWCnpu1vPiYlsmPv1SkJ1c9xE21Gpc2XKEh3DwXI="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\obj\\Debug\\net9.0\\compressed\\ppcu9vh0wd-8xmq5iord5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1488"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 16:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uJqZ6q2MRplPV693oAyKKPpukfAYIUq7oDEns8aDFqo="
+          "Value": "sha256-npxIaonOa0iQXrrW1wul0pijLiA2T+eMfq4+/pkrEI8="
         }
       ]
     },
@@ -2827,7 +2827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:15:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2880,7 +2880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:15:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2917,7 +2917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:15:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2964,7 +2964,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:15:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3025,7 +3025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:15:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3070,7 +3070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 15:15:56 GMT"
+          "Value": "Sun, 04 May 2025 17:15:49 GMT"
         },
         {
           "Name": "Cache-Control",
