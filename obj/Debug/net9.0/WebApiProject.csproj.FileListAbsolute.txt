@@ -456,12 +456,6 @@ Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebA
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.MvcApplicationPartsAssemblyInfo.cache
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.sourcelink.json
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\scopedcss\bundle\WebApiProject.styles.css
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\dhlqenrrzi-660cxbgz8s.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\sfux7oebrb-7wbinuc92w.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\hd6u7mlz96-9elsvufubc.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\7etrzzc4uo-penowu8qrv.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\n07u4qihrv-1eq42ubfg4.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\a6svjnkz9i-dxwk0wy6vq.gz
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\staticwebassets.build.json
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\staticwebassets.development.json
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -477,6 +471,158 @@ Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\refi
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.pdb
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\WebApiProject.genruntimeconfig.cache
 Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\ref\WebApiProject.dll
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\eptw1s3nfw-8atn0dborq.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\4vh1o9v6r9-kvh550j0ec.gz
-Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\ppcu9vh0wd-vhvu08gmuf.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\appsettings.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Data\IceCream.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Data\User.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.staticwebassets.runtime.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.staticwebassets.endpoints.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.exe
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.deps.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.runtimeconfig.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.pdb
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Scalar.AspNetCore.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.csproj.AssemblyReference.cache
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.AssemblyInfoInputs.cache
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.AssemblyInfo.cs
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.csproj.CoreCompileInputs.cache
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\scopedcss\bundle\WebApiProject.styles.css
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\dhlqenrrzi-660cxbgz8s.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\eptw1s3nfw-8atn0dborq.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\sfux7oebrb-7wbinuc92w.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\hd6u7mlz96-9elsvufubc.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\7etrzzc4uo-penowu8qrv.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\n07u4qihrv-1eq42ubfg4.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\a6svjnkz9i-dxwk0wy6vq.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.WebApiProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.WebApiProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.build.WebApiProject.props
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProject.props
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebApiProject.props
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiPr.F32AE1AA.Up2Date
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\refint\WebApiProject.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.pdb
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.genruntimeconfig.cache
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\ref\WebApiProject.dll
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\ppcu9vh0wd-yozbjfjf6v.gz
+C:\Users\huser\Downloads\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\4vh1o9v6r9-b5pbyf23kz.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\appsettings.Development.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\appsettings.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Data\IceCream.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Data\User.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.staticwebassets.endpoints.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.staticwebassets.runtime.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.exe
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.deps.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.runtimeconfig.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\WebApiProject.pdb
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.OpenApi.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Scalar.AspNetCore.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.csproj.AssemblyReference.cache
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.AssemblyInfoInputs.cache
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.AssemblyInfo.cs
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.csproj.CoreCompileInputs.cache
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\scopedcss\bundle\WebApiProject.styles.css
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.build.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.development.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.WebApiProject.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.WebApiProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.build.WebApiProject.props
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProject.props
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebApiProject.props
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\staticwebassets.pack.json
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiPr.F32AE1AA.Up2Date
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\refint\WebApiProject.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.pdb
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\WebApiProject.genruntimeconfig.cache
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\ref\WebApiProject.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.AspNetCore.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\bin\Debug\net9.0\Serilog.Sinks.File.dll
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\sfux7oebrb-l6ff1wwkxr.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\eptw1s3nfw-qnn1rkjqrn.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\hd6u7mlz96-w58k3uihjk.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\7etrzzc4uo-rarvhs8tgc.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\a6svjnkz9i-kvixoemx8b.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\n07u4qihrv-j92f1c2csf.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\dhlqenrrzi-eqjpeixnzu.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\4vh1o9v6r9-wf9ewnh3h3.gz
+Z:\B\פל תמר\-WebApiProject-main (1)\-WebApiProject-main\obj\Debug\net9.0\compressed\ppcu9vh0wd-fbx6ou73zh.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.AspNetCore.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\bin\Debug\net9.0\Serilog.Sinks.File.dll
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\dhlqenrrzi-eqjpeixnzu.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\eptw1s3nfw-qnn1rkjqrn.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\sfux7oebrb-l6ff1wwkxr.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\4vh1o9v6r9-wf9ewnh3h3.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\hd6u7mlz96-w58k3uihjk.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\ppcu9vh0wd-fbx6ou73zh.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\7etrzzc4uo-rarvhs8tgc.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\n07u4qihrv-j92f1c2csf.gz
+Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\obj\Debug\net9.0\compressed\a6svjnkz9i-kvixoemx8b.gz

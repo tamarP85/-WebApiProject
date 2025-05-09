@@ -16,8 +16,8 @@ namespace Services
         private static SymmetricSecurityKey key
             = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(
-                    "SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ")); // מפתח חתימה
-        private static string issuer = "https://-WebApiProject.com"; // או הכתובת המתאימה שלך
+                    "SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ")); 
+        private static string issuer = "https://-WebApiProject.com";
 
         public static SecurityToken GetToken(List<Claim> claims) =>
             new JwtSecurityToken(

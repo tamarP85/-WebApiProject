@@ -19,7 +19,6 @@ public class UserController : ControllerBase
     [Authorize(Policy = "Admin")]
     public ActionResult<IEnumerable<User>> Get()
     {
-        Console.WriteLine("************************");
         return userService.Get();
     }
 
@@ -44,7 +43,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "Agent")]
     public ActionResult Put(int id, User newUser)
     {
         if (userService.UpDate(id, newUser))

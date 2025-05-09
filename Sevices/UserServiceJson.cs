@@ -12,24 +12,28 @@ namespace WebApiProject.Services;
 
 public class UserServiceJson : IGenericServicesJson<User>
 {
-    private readonly IHostEnvironment _env; // שדה לשמירת IHostEnvironment
+    private readonly IHostEnvironment _env; 
     public IceCreamServiceJson iceCreamService;
-    public UserServiceJson(IHostEnvironment env, IceCreamServiceJson iceCreamService) : base(env)
+
+    public ActiveUserService activeUserService;
+    public UserServiceJson(IHostEnvironment env, IceCreamServiceJson iceCreamService,ActiveUserService activeUserService) : base(env)
     {
         _env = env;
         this.iceCreamService = iceCreamService;
+        activeUserService=activeUserService;
     }
 
     public User Get(int id)
     {
-        if (CheckTokenService.isValidRequest(id) != -1)
+        if (activeUserService.UserId==id||activeUserService.Type=="Admin")
             return ItemsList.FirstOrDefault(i => i.Id == id);
         else
             return null;
     }
     public override int Insert(User newUser)
     {
-        if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type))
+        if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type)||(newUser.Type!="Admin"&&newUser.Type!="Agent")
+        )
             return -1;
         if (!IsValidEmail(newUser.Email))
             return -1;
@@ -45,7 +49,7 @@ public class UserServiceJson : IGenericServicesJson<User>
 
     public override bool UpDate(int id, User newUser)
     {
-        if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type))
+        if (newUser == null || string.IsNullOrWhiteSpace(newUser.Name) || string.IsNullOrWhiteSpace(newUser.Email) || string.IsNullOrWhiteSpace(newUser.Password) || string.IsNullOrWhiteSpace(newUser.Type)||(newUser.Type!="Admin"&&newUser.Type!="Agent"))
             return false;
         var User = ItemsList.FirstOrDefault(i => i.Id == id);
         if (User == null)
@@ -72,43 +76,15 @@ public class UserServiceJson : IGenericServicesJson<User>
         {
             
             iceCreamService.Delete(iceCream.Id);
-            // iceCreamService.ItemsList= // מחיקת כל גלידה
         }
         ItemsList.Remove(item);
         saveToFile();
         return true;
     }
-    // public bool Delete(int id)
-    // {
-    //     var item = ItemsList.FirstOrDefault(i => i.Id == id);
-    //     if (item == null)
-    //         return false;
-    //     // יצירת שירות גלידות
-    //     // IceCreamServiceJson iceCreamService = new IceCreamServiceJson(_env);
-    //     var iceCreamsToDelete = iceCreamService.Get().Where(i => i.AgentId == id).ToList();
-    //     if (iceCreamsToDelete.Count() == 0)
-    //         return false;
-    //     ItemsList.Remove(item);
-    //     // הדפסת רשימת הגלידות למחיקה
-    //     Console.WriteLine("רשימת הגלידות למחיקה:");
-    //     foreach (var iceCream in iceCreamsToDelete)
-    //     {
-    //         Console.WriteLine($"Id: {iceCream.Id}, Name: {iceCream.Name}, Price: {iceCream.Price}");
-    //     }
-
-    //     // מחיקת הגלידות
-    //     foreach (var iceCream in iceCreamsToDelete)
-    //     {
-    //         iceCreamService.Delete(iceCream.Id);
-    //     }
-
-    //     saveToFile();
-    //     return true;
-    // }
     private bool IsValidEmail(string email)
     {
         string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
         return Regex.IsMatch(email, pattern);
     }
 }
-// 
+

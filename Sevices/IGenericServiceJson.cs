@@ -18,7 +18,7 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
 
     public  IGenericServicesJson(IHostEnvironment env)
     {
-        fileName = typeof(T).Name + ".json"; // הגדרה ברמת האינסטנציה
+        fileName = typeof(T).Name + ".json"; 
         filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
         using (var jsonFile = File.OpenText(filePath))
         {
@@ -36,8 +36,6 @@ public abstract class IGenericServicesJson<T> : IGenericInterface<T> where T : G
 
     public virtual  List<T> Get() 
     {
-        System.Console.WriteLine("i am in virtual"); 
-        System.Console.WriteLine(ItemsList.Count()+"////////////////");
         return ItemsList;
     }
 
@@ -65,7 +63,6 @@ public static class GenericUtilitiesJson
        where T : GenericModel
        where TService :IGenericServicesJson<T>
     {
-        // תוספת: הגדרת מחזור חיים Scoped
         services.AddScoped<IGenericServicesJson<T>, TService>();
     }
 }

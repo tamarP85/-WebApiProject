@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services;
@@ -20,43 +21,28 @@ public class LoginController : ControllerBase
     {
         this.userService = userService;
     }
-
     [HttpPost]
-    // [Route("[action]")]
-    public ActionResult<String> Login([FromBody] User user)
+public ActionResult<String> Login([FromBody] User user)
+{
+    User currentUser = userService.Get().FirstOrDefault(u => u.Name == user.Name && u.Password == user.Password);
+    if (currentUser == null)
     {
-
-        User currentUser = userService.Get().FirstOrDefault(u => u.Name == user.Name&& u.Password == user.Password);
-        System.Console.WriteLine("----------------");
-        System.Console.WriteLine(currentUser.Type);
-        if (currentUser == null)
-        {
-            return NotFound(); 
-        }
-
-        var claims = new List<Claim> { new Claim("Id", currentUser.Id.ToString()) };
-        if (currentUser.Type == "Agent")
-        {
-
-            claims = new List<Claim>
-           {
-                new Claim("type", "Agent"),
-            };
-        }
-        else
-        {
-            claims = new List<Claim>
-            {
-                new Claim("type", "Admin"),
-            };
-        }
-        var token = TokenService.GetToken(claims);
-        CurrentUserService.currentUser=null;
-        CurrentUserService current=new CurrentUserService(currentUser.Type,currentUser.Id);
-        Console.WriteLine("**********");
-        Console.WriteLine(CurrentUserService.currentUser.Type);
-        Console.WriteLine(CurrentUserService.currentUser.Id);
-
-        return new OkObjectResult(TokenService.WriteToken(token));
+        return NotFound(); 
     }
+
+    var claims = new List<Claim>
+    {
+        new Claim("Id", currentUser.Id.ToString()),
+        new Claim("type", currentUser.Type) 
+    };
+
+    var claimsIdentity = new ClaimsIdentity(claims, "login");
+    var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+    HttpContext.SignInAsync(claimsPrincipal);
+
+    var token = TokenService.GetToken(claims);
+    return new OkObjectResult(TokenService.WriteToken(token));
+}
+
 }

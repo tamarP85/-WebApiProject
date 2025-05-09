@@ -1,6 +1,7 @@
-const uri = '/Users';
+const uri = '/User';
 let users = [];
-const token = localStorage.getItem('token');
+let tokenCookie = document.cookie.split('; ').find(row => row.startsWith('token='));
+let token = tokenCookie ? tokenCookie.split('=')[1] : null;
 
 function getUsers() {
     fetch(uri, {
@@ -10,9 +11,17 @@ function getUsers() {
                 'Accept': 'application/json'
             }
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                alert("שגיאה בקבלת הלקוחות")
+            }
+            return response.json();
+
+        })
         .then(data => _displayUsers(data))
-        .catch(error => console.error('Unable to get users.', error));
+        .catch((error) => {
+            alert(error)
+        });
 }
 
 function addUser() {
@@ -27,7 +36,7 @@ function addUser() {
         Name: userNameTextbox.value.trim(),
         Password: userPasswordTextbox.value.trim(),
         Email: userEmailTextbox.value.trim(),
-        Type: userTypeTextbox.value.trim()
+        Type: userTypeTextbox.value,
     };
 
     fetch(uri, {
@@ -39,6 +48,12 @@ function addUser() {
             },
             body: JSON.stringify(user)
         })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("שגיאה בהוספת המשתמש ");
+            }
+            return response.json();
+        })
         .then(() => {
             getUsers();
             userIdTextbox.value = '';
@@ -47,7 +62,9 @@ function addUser() {
             userEmailTextbox.value = '';
             userTypeTextbox.value = '';
         })
-        .catch(error => console.error('Unable to add user.', error));
+        .catch((error) => {
+            alert(error);
+        });
 }
 
 function deleteUser(id) {
@@ -58,19 +75,25 @@ function deleteUser(id) {
                 'Authorization': 'Bearer ' + token,
             },
         })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("שגיאה במחיקת המשתמש");
+            }
+        })
         .then(() => getUsers())
-        .catch(error => console.error('Unable to delete user.', error));
+        .catch((error) => {
+            alert(error)
+        });
 }
 
 function displayEditForm(id) {
-    const user = users.find(user => user.Id === id);
-
-    document.getElementById('edit-id').value = user.Id;
-    document.getElementById('edit-name').value = user.Name;
-    document.getElementById('edit-password').value = user.Password;
-    document.getElementById('edit-email').value = user.Email;
-    document.getElementById('edit-type').value = user.Type;
-
+    id = Number(id);
+    const user = users.find(user => user.id === id);
+    document.getElementById('edit-id').value = user.id;
+    document.getElementById('edit-name').value = user.name;
+    document.getElementById('edit-password').value = user.password;
+    document.getElementById('edit-email').value = user.email;
+    document.getElementById('edit-type').selected = user.type;
     document.getElementById('editForm').style.display = 'block';
 }
 
@@ -82,7 +105,7 @@ function updateUser() {
         Name: document.getElementById('edit-name').value.trim(),
         Password: document.getElementById('edit-password').value.trim(),
         Email: document.getElementById('edit-email').value.trim(),
-        Type: document.getElementById('edit-type').value.trim()
+        Type: document.getElementById('edit-type').value,
     };
 
     fetch(`${uri}/${userId}`, {
@@ -94,8 +117,15 @@ function updateUser() {
             },
             body: JSON.stringify(user)
         })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("שגיאה בעדכון המשתמש");
+            }
+        })
         .then(() => getUsers())
-        .catch(error => console.error('Unable to update user.', error));
+        .catch((error) => {
+            alert(error)
+        });
 
     closeInput();
     return false;
@@ -115,12 +145,12 @@ function _displayUsers(data) {
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';
         editButton.className = 'edit';
-        editButton.setAttribute('onclick', `displayEditForm('${user.Id}')`);
+        editButton.setAttribute('onclick', `displayEditForm('${user.id}')`);
 
         let deleteButton = button.cloneNode(false);
         deleteButton.innerText = 'Delete';
         deleteButton.className = 'delete';
-        deleteButton.setAttribute('onclick', `deleteUser('${user.Id}')`);
+        deleteButton.setAttribute('onclick', `deleteUser('${user.id}')`);
 
         const tr = tBody.insertRow();
 
@@ -132,15 +162,19 @@ function _displayUsers(data) {
         const td6 = tr.insertCell(5);
         const td7 = tr.insertCell(6);
 
-        td1.textContent = user.Id;
-        td2.textContent = user.Name;
-        td3.textContent = '****'; // Hide password
-        td4.textContent = user.Email;
-        td5.textContent = user.Type;
+        td1.textContent = user.id;
+        td2.textContent = user.name;
+        td3.textContent = user.password;
+        td4.textContent = user.email;
+        td5.textContent = user.type;
 
         td6.appendChild(editButton);
         td7.appendChild(deleteButton);
     });
 
     users = data;
+}
+
+function goToIceCream() {
+    window.location.href = './index.html';
 }

@@ -14,7 +14,10 @@
         <input type="text" id="add-name" placeholder="User Name"><br>
         <input type="password" id="add-password" placeholder="Password"><br>
         <input type="email" id="add-email" placeholder="Email"><br>
-        <input type="text" id="add-type" placeholder="User Type">
+        <select name="" id="add-type">
+            <option value="">Admin</option>
+            <option value="">Agent</option>
+        </select>
 
         <input type="submit" value="Add">
     </form>
@@ -26,7 +29,10 @@
             <input type="text" id="edit-name">
             <input type="password" id="edit-password">
             <input type="email" id="edit-email">
-            <input type="text" id="edit-type">
+            <select name="" id="edit-type">
+                <option value="">Admin</option>
+                <option value="">Agent</option>
+            </select>
 
             <input type="submit" value="Save">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
@@ -47,6 +53,7 @@
         </tr>
         <tbody id="users"></tbody>
     </table>
+    <button onclick="goToIceCream()">Go to Ice Cream</button>
 
     <script src="js/users.js" asp-append-version="true"></script>
     <script type="text/javascript">

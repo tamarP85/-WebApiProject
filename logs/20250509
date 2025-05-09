@@ -1,0 +1,202 @@
+2025-05-09 08:55:10.257 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-09 08:55:10.352 +03:00 [DBG] Hosting starting
+2025-05-09 08:55:10.364 +03:00 [INF] User profile is available. Using 'C:\Users\huser\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 08:55:10.371 +03:00 [DBG] Reading data from file 'C:\Users\huser\AppData\Local\ASP.NET\DataProtection-Keys\key-74a106a8-4660-42c7-933d-36df5de65470.xml'.
+2025-05-09 08:55:10.376 +03:00 [DBG] Found key {74a106a8-4660-42c7-933d-36df5de65470}.
+2025-05-09 08:55:10.386 +03:00 [DBG] Considering key {74a106a8-4660-42c7-933d-36df5de65470} with expiration date 2025-08-07 05:51:21Z as default key.
+2025-05-09 08:55:10.389 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-09 08:55:10.392 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-09 08:55:10.394 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-09 08:55:10.399 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-09 08:55:10.401 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-09 08:55:10.403 +03:00 [DBG] Using key {74a106a8-4660-42c7-933d-36df5de65470} as the default key.
+2025-05-09 08:55:10.404 +03:00 [DBG] Key ring with default key {74a106a8-4660-42c7-933d-36df5de65470} was loaded during application startup.
+2025-05-09 08:55:10.426 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-09 08:55:10.428 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-09 08:55:10.445 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-05-09 08:55:10.458 +03:00 [INF] Now listening on: https://localhost:7282
+2025-05-09 08:55:10.460 +03:00 [INF] Now listening on: http://localhost:5102
+2025-05-09 08:55:10.461 +03:00 [DBG] Loaded hosting startup assembly WebApiProject
+2025-05-09 08:55:10.462 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-09 08:55:10.464 +03:00 [INF] Hosting environment: Development
+2025-05-09 08:55:10.465 +03:00 [INF] Content root path: Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject
+2025-05-09 08:55:10.466 +03:00 [DBG] Hosting started
+2025-05-09 08:55:21.905 +03:00 [DBG] Connection id "0HNCENOAUJK05" accepted.
+2025-05-09 08:55:21.908 +03:00 [DBG] Connection id "0HNCENOAUJK05" started.
+2025-05-09 08:55:21.908 +03:00 [DBG] Connection id "0HNCENOAUJK06" accepted.
+2025-05-09 08:55:21.910 +03:00 [DBG] Connection id "0HNCENOAUJK06" started.
+2025-05-09 08:55:21.929 +03:00 [DBG] Connection id "0HNCENOAUJK06" received FIN.
+2025-05-09 08:55:21.929 +03:00 [DBG] Connection id "0HNCENOAUJK05" received FIN.
+2025-05-09 08:55:21.934 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-09 08:55:21.934 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-09 08:55:21.948 +03:00 [DBG] Connection id "0HNCENOAUJK05" stopped.
+2025-05-09 08:55:21.949 +03:00 [DBG] Connection id "0HNCENOAUJK06" stopped.
+2025-05-09 08:55:21.950 +03:00 [DBG] Connection id "0HNCENOAUJK05" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:21.951 +03:00 [DBG] Connection id "0HNCENOAUJK06" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:43.570 +03:00 [DBG] Connection id "0HNCENOAUJK07" accepted.
+2025-05-09 08:55:43.579 +03:00 [DBG] Connection id "0HNCENOAUJK07" started.
+2025-05-09 08:55:43.579 +03:00 [DBG] Connection id "0HNCENOAUJK08" accepted.
+2025-05-09 08:55:43.595 +03:00 [DBG] Connection id "0HNCENOAUJK08" started.
+2025-05-09 08:55:43.609 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/ - null null
+2025-05-09 08:55:43.629 +03:00 [DBG] No candidates found for the request path '/'
+2025-05-09 08:55:43.634 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:43.668 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.195 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.238 +03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\index.html'
+2025-05-09 08:55:44.247 +03:00 [INF] /index.html GET took 41ms. success: true
+2025-05-09 08:55:44.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/js/site.js - null null
+2025-05-09 08:55:44.256 +03:00 [DBG] Connection id "0HNCENOAUJK07" completed keep alive response.
+2025-05-09 08:55:44.263 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-05-09 08:55:44.268 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/index.html - 200 2293 text/html 660.4551ms
+2025-05-09 08:55:44.272 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.282 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/css/site.css - null null
+2025-05-09 08:55:44.287 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.293 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-05-09 08:55:44.299 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.305 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.317 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.324 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.329 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\js\site.js'
+2025-05-09 08:55:44.337 +03:00 [INF] /js/site.js GET took 25ms. success: true
+2025-05-09 08:55:44.343 +03:00 [DBG] Connection id "0HNCENOAUJK08" completed keep alive response.
+2025-05-09 08:55:44.345 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\css\site.css'
+2025-05-09 08:55:44.350 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/js/site.js - 200 8355 text/javascript 100.3354ms
+2025-05-09 08:55:44.357 +03:00 [INF] /css/site.css GET took 25ms. success: true
+2025-05-09 08:55:44.367 +03:00 [DBG] Connection id "0HNCENOAUJK07" completed keep alive response.
+2025-05-09 08:55:44.372 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/css/site.css - 200 2406 text/css 90.1766ms
+2025-05-09 08:55:44.379 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/login.html - null null
+2025-05-09 08:55:44.385 +03:00 [DBG] No candidates found for the request path '/login.html'
+2025-05-09 08:55:44.390 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.396 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.402 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.423 +03:00 [INF] Sending file. Request path: '/login.html'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\login.html'
+2025-05-09 08:55:44.430 +03:00 [INF] /login.html GET took 21ms. success: true
+2025-05-09 08:55:44.435 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/js/login.js - null null
+2025-05-09 08:55:44.437 +03:00 [DBG] Connection id "0HNCENOAUJK07" completed keep alive response.
+2025-05-09 08:55:44.445 +03:00 [DBG] No candidates found for the request path '/js/login.js'
+2025-05-09 08:55:44.450 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/login.html - 200 1885 text/html 71.4139ms
+2025-05-09 08:55:44.455 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.460 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/css/login.css - null null
+2025-05-09 08:55:44.466 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.471 +03:00 [DBG] No candidates found for the request path '/css/login.css'
+2025-05-09 08:55:44.476 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.482 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.494 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.501 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.503 +03:00 [INF] Sending file. Request path: '/js/login.js'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\js\login.js'
+2025-05-09 08:55:44.516 +03:00 [INF] /js/login.js GET took 27ms. success: true
+2025-05-09 08:55:44.521 +03:00 [DBG] Connection id "0HNCENOAUJK08" completed keep alive response.
+2025-05-09 08:55:44.522 +03:00 [INF] Sending file. Request path: '/css/login.css'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\css\login.css'
+2025-05-09 08:55:44.528 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/js/login.js - 200 1089 text/javascript 93.3312ms
+2025-05-09 08:55:44.535 +03:00 [INF] /css/login.css GET took 26ms. success: true
+2025-05-09 08:55:44.550 +03:00 [DBG] Connection id "0HNCENOAUJK07" completed keep alive response.
+2025-05-09 08:55:44.557 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/css/login.css - 200 1536 text/css 97.1741ms
+2025-05-09 08:55:44.763 +03:00 [DBG] Connection id "0HNCENOAUJK09" accepted.
+2025-05-09 08:55:44.763 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/images/icecream1.png - null null
+2025-05-09 08:55:44.764 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/images/icecream2.png - null null
+2025-05-09 08:55:44.767 +03:00 [DBG] Connection id "0HNCENOAUJK09" started.
+2025-05-09 08:55:44.768 +03:00 [DBG] Connection id "0HNCENOAUJK0A" accepted.
+2025-05-09 08:55:44.770 +03:00 [DBG] No candidates found for the request path '/images/icecream1.png'
+2025-05-09 08:55:44.774 +03:00 [DBG] No candidates found for the request path '/images/icecream2.png'
+2025-05-09 08:55:44.778 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/images/icecream3.png - null null
+2025-05-09 08:55:44.783 +03:00 [DBG] Connection id "0HNCENOAUJK0A" started.
+2025-05-09 08:55:44.783 +03:00 [DBG] Connection id "0HNCENOAUJK0B" accepted.
+2025-05-09 08:55:44.788 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.793 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.799 +03:00 [DBG] No candidates found for the request path '/images/icecream3.png'
+2025-05-09 08:55:44.804 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/images/icecream4.png - null null
+2025-05-09 08:55:44.808 +03:00 [DBG] Connection id "0HNCENOAUJK0B" started.
+2025-05-09 08:55:44.808 +03:00 [DBG] Connection id "0HNCENOAUJK0C" accepted.
+2025-05-09 08:55:44.813 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.816 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.819 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.821 +03:00 [DBG] No candidates found for the request path '/images/icecream4.png'
+2025-05-09 08:55:44.823 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/images/icecream5.png - null null
+2025-05-09 08:55:44.826 +03:00 [DBG] Connection id "0HNCENOAUJK0C" started.
+2025-05-09 08:55:44.828 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.830 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.830 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.831 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.831 +03:00 [DBG] No candidates found for the request path '/images/icecream5.png'
+2025-05-09 08:55:44.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/images/icecream6.png - null null
+2025-05-09 08:55:44.833 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.834 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.834 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:44.837 +03:00 [DBG] No candidates found for the request path '/images/icecream6.png'
+2025-05-09 08:55:44.845 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:44.851 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:44.857 +03:00 [INF] Sending file. Request path: '/images/icecream1.png'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\images\icecream1.png'
+2025-05-09 08:55:44.858 +03:00 [INF] Sending file. Request path: '/images/icecream2.png'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\images\icecream2.png'
+2025-05-09 08:55:44.860 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:45.187 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:45.191 +03:00 [INF] /images/icecream1.png GET took 358ms. success: true
+2025-05-09 08:55:45.194 +03:00 [INF] /images/icecream2.png GET took 361ms. success: true
+2025-05-09 08:55:45.198 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:45.204 +03:00 [DBG] Connection id "0HNCENOAUJK07" completed keep alive response.
+2025-05-09 08:55:45.205 +03:00 [INF] Sending file. Request path: '/images/icecream3.png'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\images\icecream3.png'
+2025-05-09 08:55:45.207 +03:00 [DBG] Connection id "0HNCENOAUJK08" completed keep alive response.
+2025-05-09 08:55:45.209 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:45.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/images/icecream1.png - 200 61244 image/png 448.1028ms
+2025-05-09 08:55:45.215 +03:00 [INF] /images/icecream3.png GET took 374ms. success: true
+2025-05-09 08:55:45.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/images/icecream2.png - 200 61244 image/png 454.9171ms
+2025-05-09 08:55:45.219 +03:00 [INF] Sending file. Request path: '/images/icecream4.png'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\images\icecream4.png'
+2025-05-09 08:55:45.231 +03:00 [DBG] Connection id "0HNCENOAUJK09" completed keep alive response.
+2025-05-09 08:55:45.240 +03:00 [INF] /images/icecream4.png GET took 55ms. success: true
+2025-05-09 08:55:45.240 +03:00 [INF] Sending file. Request path: '/images/icecream5.png'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\images\icecream5.png'
+2025-05-09 08:55:45.243 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/images/icecream3.png - 200 116363 image/png 465.2678ms
+2025-05-09 08:55:45.248 +03:00 [DBG] Connection id "0HNCENOAUJK0A" completed keep alive response.
+2025-05-09 08:55:45.251 +03:00 [INF] /images/icecream5.png GET took 50ms. success: true
+2025-05-09 08:55:45.255 +03:00 [INF] Sending file. Request path: '/images/icecream6.png'. Physical path: 'Z:\B\פל תמר\core\הפרויקט שלי\-WebApiProject\wwwroot\images\icecream6.png'
+2025-05-09 08:55:45.258 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/images/icecream4.png - 200 116363 image/png 454.025ms
+2025-05-09 08:55:45.260 +03:00 [DBG] Connection id "0HNCENOAUJK0B" completed keep alive response.
+2025-05-09 08:55:45.262 +03:00 [INF] /images/icecream6.png GET took 39ms. success: true
+2025-05-09 08:55:45.271 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/images/icecream5.png - 200 99846 image/png 447.4206ms
+2025-05-09 08:55:45.275 +03:00 [DBG] Connection id "0HNCENOAUJK0C" completed keep alive response.
+2025-05-09 08:55:45.283 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/images/icecream6.png - 200 99846 image/png 450.5981ms
+2025-05-09 08:55:45.459 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5102/favicon.ico - null null
+2025-05-09 08:55:45.467 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-05-09 08:55:45.473 +03:00 [DBG] Request did not match any endpoints
+2025-05-09 08:55:45.480 +03:00 [DBG] The request path  does not match the path filter
+2025-05-09 08:55:45.488 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-09 08:55:45.496 +03:00 [DBG] The request path /favicon.ico does not match an existing file
+2025-05-09 08:55:45.501 +03:00 [INF] /favicon.ico GET took 5ms. success: true
+2025-05-09 08:55:45.504 +03:00 [DBG] Connection id "0HNCENOAUJK0C" completed keep alive response.
+2025-05-09 08:55:45.509 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5102/favicon.ico - 404 0 null 50.0035ms
+2025-05-09 08:55:45.515 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5102/favicon.ico, Response status code: 404
+2025-05-09 08:55:46.836 +03:00 [DBG] Connection id "0HNCENOAUJK07" received FIN.
+2025-05-09 08:55:46.836 +03:00 [DBG] Connection id "0HNCENOAUJK0A" received FIN.
+2025-05-09 08:55:46.836 +03:00 [DBG] Connection id "0HNCENOAUJK0B" received FIN.
+2025-05-09 08:55:46.836 +03:00 [DBG] Connection id "0HNCENOAUJK09" received FIN.
+2025-05-09 08:55:46.836 +03:00 [DBG] Connection id "0HNCENOAUJK08" received FIN.
+2025-05-09 08:55:46.836 +03:00 [DBG] Connection id "0HNCENOAUJK0C" received FIN.
+2025-05-09 08:55:46.843 +03:00 [DBG] Connection id "0HNCENOAUJK07" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:46.847 +03:00 [DBG] Connection id "0HNCENOAUJK0A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:46.854 +03:00 [DBG] Connection id "0HNCENOAUJK0B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:46.857 +03:00 [DBG] Connection id "0HNCENOAUJK09" disconnecting.
+2025-05-09 08:55:46.860 +03:00 [DBG] Connection id "0HNCENOAUJK08" disconnecting.
+2025-05-09 08:55:46.874 +03:00 [DBG] Connection id "0HNCENOAUJK0C" disconnecting.
+2025-05-09 08:55:46.874 +03:00 [DBG] Connection id "0HNCENOAUJK07" disconnecting.
+2025-05-09 08:55:46.880 +03:00 [DBG] Connection id "0HNCENOAUJK0A" disconnecting.
+2025-05-09 08:55:46.886 +03:00 [DBG] Connection id "0HNCENOAUJK0B" disconnecting.
+2025-05-09 08:55:46.891 +03:00 [DBG] Connection id "0HNCENOAUJK09" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:46.896 +03:00 [DBG] Connection id "0HNCENOAUJK08" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:46.902 +03:00 [DBG] Connection id "0HNCENOAUJK0C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-09 08:55:46.906 +03:00 [DBG] Connection id "0HNCENOAUJK0A" stopped.
+2025-05-09 08:55:46.906 +03:00 [DBG] Connection id "0HNCENOAUJK0B" stopped.
+2025-05-09 08:55:46.917 +03:00 [DBG] Connection id "0HNCENOAUJK07" stopped.
+2025-05-09 08:55:46.917 +03:00 [DBG] Connection id "0HNCENOAUJK09" stopped.
+2025-05-09 08:55:46.932 +03:00 [DBG] Connection id "0HNCENOAUJK0C" stopped.
+2025-05-09 08:55:46.932 +03:00 [DBG] Connection id "0HNCENOAUJK08" stopped.
+2025-05-09 08:55:51.801 +03:00 [INF] Application is shutting down...
+2025-05-09 08:55:51.802 +03:00 [DBG] Hosting stopping
+2025-05-09 08:55:51.808 +03:00 [DBG] Hosting stopped

@@ -1,30 +1,40 @@
 
+
+using Serilog;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
 
-namespace WebApiProject.Middleware;
-
-public class LogMiddleware
+namespace WebApiProject.Middleware
 {
-
-
-    private RequestDelegate next;
-
-    public LogMiddleware(RequestDelegate next)
+    public class LogMiddleware
     {
-        this.next = next;
+        private readonly RequestDelegate _next;
+
+        public LogMiddleware(RequestDelegate next)
+        {
+            _next = next;
+        }
+
+        public async Task Invoke(HttpContext context)
+        {
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
+            await _next(context);
+            stopWatch.Stop();
+            Log.Information("{RequestPath} {RequestMethod} took {ElapsedMilliseconds}ms. success: {Success}",
+                context.Request.Path,
+                context.Request.Method,
+                stopWatch.ElapsedMilliseconds,
+                context.Items["success"]);
+        }
     }
 
-    public async Task Invoke(HttpContext context)
+    public static class MiddlewareExtensions
     {
-        var stopWatch = new Stopwatch();
-        stopWatch.Start();
-        await next(context);
-        System.Console.WriteLine($"{context.Request.Path}.{context.Request.Method} took {stopWatch.ElapsedMilliseconds}ms."+ $"success: {context.Items["sucess"]}");
-    }
-}
-public static partial class MiddlewareExtentions{
-    public static WebApplication UseLogMiddleware(this WebApplication app){
-        app.UseMiddleware<LogMiddleware>();
-        return app;
+        public static WebApplication UseLogMiddleware(this WebApplication app)
+        {
+            app.UseMiddleware<LogMiddleware>();
+            return app;
+        }
     }
 }

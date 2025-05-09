@@ -23,7 +23,6 @@ namespace WebApiProject.Middlewares
                 ) ? userId : -1;
                 activeUser.Type = context.User.Claims.FirstOrDefault(c => c.Type == "type")?.Value ?? "Agent";
             }
-
             await _next(context);
         }
     }

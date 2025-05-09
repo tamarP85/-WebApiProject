@@ -19,21 +19,8 @@ public class IceCreamController : ControllerBase
     [Authorize(Policy = "Agent")]
     public ActionResult<IEnumerable<IceCream>> Get()
     {
-        System.Console.WriteLine("I am in controller %%%%%%%%%%%%%%%%%%%%%");
-        var i=iceCreamService.Get();
-        System.Console.WriteLine(i.Count());
-        // System.Console.WriteLine(i.Count());
-        System.Console.WriteLine("1111111111111" + i);
-
-        // if (iceCreamService is IceCreamServiceJson)
-        //     return (iceCreamService as IceCreamServiceJson).GetIce();
-        // else
-        // {
-        //    return  iceCreamService.Get();
-        // }
-        System.Console.WriteLine("===================" + iceCreamService);
-        System.Console.WriteLine("8888888888888888888888");
-        return  i;
+       return iceCreamService.Get();
+ 
     }
 
     [HttpGet("{id}")]
@@ -68,10 +55,8 @@ public class IceCreamController : ControllerBase
     [Authorize(Policy = "Agent")]
     public ActionResult Delete(int id)
     {
-        System.Console.WriteLine(id);
         if (iceCreamService.Delete(id))
             return Ok();
-
         return NotFound();
     }
 

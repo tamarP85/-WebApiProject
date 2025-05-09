@@ -1,5 +1,4 @@
 document.getElementById('loginButton').addEventListener('click', function() {
-    // קבלת ערכי הקלט
     const nameInput = document.getElementById('name').value;
     const passwordInput = document.getElementById('password').value;
     var user = {
@@ -9,7 +8,6 @@ document.getElementById('loginButton').addEventListener('click', function() {
         Type: "",
         Id: -1,
     };
-    // קריאה לפונקציה POST
     login(user);
 
 
@@ -28,12 +26,10 @@ function login(user) {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            return response.json(); // מחזירים את התגובה בפורמט JSON
+            return response.json();
         })
         .then(data => {
-            // שמור את הטוקן ב-localStorage או ב-sessionStorage
-            console.log(data);
-            localStorage.setItem('token', data);
+            document.cookie = "token=" + encodeURIComponent(data) + "; path=/; max-age=" + 7 * 24 * 60 * 60;
             window.location.href = '../index.html';
         })
         .catch(error => {
