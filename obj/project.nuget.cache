@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tNPRCiaf16k=",
+  "dgSpecHash": "RuJlO918UL4=",
   "success": true,
-  "projectFilePath": "Z:\\B\\פל תמר\\core\\הפרויקט שלי\\-WebApiProject\\WebApiProject.csproj",
+  "projectFilePath": "Z:\\B\\פל תמר\\-WebApiProject-main\\-WebApiProject-main\\WebApiProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.4\\microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.4\\microsoft.aspnetcore.authorization.9.0.4.nupkg.sha512",

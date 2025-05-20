@@ -33,6 +33,6 @@ function login(user) {
             window.location.href = '../index.html';
         })
         .catch(error => {
-            console.error('Error:', error);
+            alert("פרטי משתמש שגויים")
         });
 }

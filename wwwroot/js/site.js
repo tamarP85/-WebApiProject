@@ -139,6 +139,10 @@ function closeInput() {
     document.getElementById('editForm').style.display = 'none';
 }
 
+function closeUpdate(){
+    document.getElementById('userModal').style.display = 'none';
+}
+
 function _displayCount(itemCount) {
     const name = (itemCount === 1) ? 'IceCream' : 'iceCream kinds';
 
@@ -206,7 +210,39 @@ const checkValidity1 = () => {
 }
 document.getElementById('updateUserButton').addEventListener('click', function() {
     document.getElementById('userModal').style.display = 'block';
-
+    const parts = token.split('.');
+    let userId = '-1';
+    let payload;
+    if (parts.length === 3) {
+        payload = JSON.parse(atob(parts[1]));
+        userId = payload.Id;
+    }
+    fetch(`/User/${userId}`, {
+        method: 'GET',
+        headers: {
+            'Authorization': 'Bearer ' + token,
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        credentials: 'include'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("שגיאה בקבלת המוצרים ")
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (!data) {
+            throw new Error('Response is empty');
+        }
+         document.getElementById('name').value=data.name,
+         document.getElementById('password').value=data.password,
+         document.getElementById('email').value=data.email
+    })
+    .catch((error) => {
+        console.error('Unable to get items.', error), alert(error)
+    });
 });
 document.getElementById('submitButton').addEventListener('click', function() {
     const parts = token.split('.');
