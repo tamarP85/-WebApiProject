@@ -139,7 +139,7 @@ function closeInput() {
     document.getElementById('editForm').style.display = 'none';
 }
 
-function closeUpdate(){
+function closeUpdate() {
     document.getElementById('userModal').style.display = 'none';
 }
 
@@ -218,31 +218,31 @@ document.getElementById('updateUserButton').addEventListener('click', function()
         userId = payload.Id;
     }
     fetch(`/User/${userId}`, {
-        method: 'GET',
-        headers: {
-            'Authorization': 'Bearer ' + token,
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        credentials: 'include'
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error("שגיאה בקבלת המוצרים ")
-        }
-        return response.json();
-    })
-    .then(data => {
-        if (!data) {
-            throw new Error('Response is empty');
-        }
-         document.getElementById('name').value=data.name,
-         document.getElementById('password').value=data.password,
-         document.getElementById('email').value=data.email
-    })
-    .catch((error) => {
-        console.error('Unable to get items.', error), alert(error)
-    });
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            credentials: 'include'
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("שגיאה בקבלת המוצרים ")
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (!data) {
+                throw new Error('Response is empty');
+            }
+            document.getElementById('name').value = data.name,
+                document.getElementById('password').value = data.password,
+                document.getElementById('email').value = data.email
+        })
+        .catch((error) => {
+            console.error('Unable to get items.', error), alert(error)
+        });
 });
 document.getElementById('submitButton').addEventListener('click', function() {
     const parts = token.split('.');
